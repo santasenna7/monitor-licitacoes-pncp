@@ -6,12 +6,16 @@
     "dias_minimo_prazo": 5,
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "odontologia", "dentista", "dental", "odontologico",
-      "protese dentaria", "implante dentario", "clareamento dental",
-      "periodontia", "endodontia", "ortodontia", "odonto",
-      "equipamento odontologico", "material dentario",
-      "cadeira odontologica", "instrumental odontologico",
-      "escovas de dente", "creme dental", "fio dental"
+      "protese total mandibular", "protese total maxilar",
+      "protese parcial mandibular removivel", "protese parcial maxilar removivel",
+      "confeccao de protese parcial mandibular removivel",
+      "confeccao de protese parcial maxilar removivel",
+      "confeccao de protese total mandibular",
+      "confeccao de protese total maxilar",
+      "confeccao de protese coronarias", "protese intrarradicular",
+      "reabilitacao oral", "proteses dentarias",
+      "servicos odontologicos", "servico odontologico",
+      "tratamento odontologico", "protese dentaria"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -22,9 +26,14 @@
     "dias_minimo_prazo": 5,
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "comercio varejista", "loja", "revenda de produtos",
-      "material de expediente", "material de escritorio",
-      "papelaria", "mobiliario comercial", "equipamento comercial"
+      "epi", "epis", "epc", "epcs",
+      "equipamento de protecao individual",
+      "equipamento de protecao coletiva",
+      "seguranca do trabalho",
+      "equipamento de seguranca",
+      "luva", "bota", "capacete", "oculos de protecao",
+      "protetor auricular", "mascara", "respirador",
+      "cinto paraquedista", "calca paraquedista"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -35,12 +44,12 @@
     "dias_minimo_prazo": 5,
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "dedetizacao", "desinsetizacao", "desratizacao", "fumacaca",
-      "controle de pragas urbanas", "higienizacao predial",
-      "limpeza predial", "limpeza hospitalar",
-      "higienizacao hospitalar", "controle vetorial",
-      "servico de dedetizacao", "servico de desratizacao",
-      "eliminacao de pragas", "manutencao predial"
+      "controle de pragas", "controle de vetores",
+      "dedetizacao", "desratizacao", "larvicida",
+      "limpeza de caixa dagua", "higienizacao de caixa dagua",
+      "descupinizacao", "desbacterizacao",
+      "instalacao de barreiras fisicas",
+      "controle pragas urbanas", "combate a pragas"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -51,19 +60,7 @@
     "dias_minimo_prazo": 5,
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "medicamento", "farmaceutico",
-      "insumo hospitalar", "material hospitalar",
-      "produtos farmaceuticos", "produtos para saude",
-      "medicamento hospitalar", "insumos de saude",
-      "fornecimento de medicamentos", "aquisicao de medicamentos",
-      "farmacia popular", "farmacia basica",
-      "medicamento controlado", "medicamento generico",
-      "antibiotico", "analgesico", "anti-inflamatorio",
-      "insulina", "vacina", "soro fisiologico", "colirio",
-      "pomada medicamento", "capsula", "comprimido", "injetavel",
-      "material medico hospitalar", "equipamento medico",
-      "dispositivo medico", "instrumento medico",
-      "kits de teste", "reagente de laboratorio"
+      "medicamentos", "medicamento", "farmacia"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -74,14 +71,9 @@
     "dias_minimo_prazo": 5,
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
+      "treinamento e desenvolvimento profissional",
       "treinamento", "capacitacao", "curso",
-      "desenvolvimento profissional", "desenvolvimento gerencial",
-      "consultoria", "assessoria", "gestao",
-      "educacao corporativa", "plano de cargos e salarios",
-      "gestao de pessoas", "recursos humanos",
-      "qualificacao profissional", "habilitacao profissional",
-      "aprendizagem", "instrucao", "ensino",
-      "palestra", "seminario", "workshop", "congresso"
+      "consultoria", "gestao de pessoas"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -92,15 +84,9 @@
     "dias_minimo_prazo": 5,
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "producao musical", "producao artistica", "producao cultural",
-      "sonorizacao", "iluminacao", "equipamento de audio",
-      "equipamento de som", "mixagem", "masterizacao",
-      "estudio de gravacao", "ensaio", "show",
-      "evento cultural", "festival", "concerto",
-      "locucao", "jingle", "publicidade sonora",
-      "video", "filmagem", "fotografia",
-      "locacao de equipamentos de audio e video",
-      "cobertura de eventos"
+      "producao musical", "cantor solo", "musico solo",
+      "musico sertanejo", "artista sertanejo",
+      "cantor sertanejo", "sertanejo"
     ],
     "ufs_interesse": ["MG"]
   }
