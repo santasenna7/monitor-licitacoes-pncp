@@ -1,4 +1,6 @@
 import os
+from datetime import datetime
+
 import requests
 
 API_URL = "https://api.telegram.org/bot{token}/sendMessage"
@@ -25,6 +27,21 @@ def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bo
         print("[ERRO] Falha ao enviar Telegram:", resp.status_code, resp.text)
         return False
     return True
+
+
+def formatar_status(lista_empresas: list, novos: int) -> str:
+    agora = datetime.now().strftime("%d/%m/%Y %H:%M")
+    empresas_texto = "\n".join(f"  - {e}" for e in lista_empresas)
+    if novos > 0:
+        resultado = f"{novos} nova(s) licitacao(oes) encontrada(s) e alerta(s) enviado(s)."
+    else:
+        resultado = "Nenhuma licitacao nova encontrada nesta busca."
+    return (
+        f"<b>Monitor de Licitacoes - Status</b>\n"
+        f"Hora: {agora}\n"
+        f"Empresas monitoradas:\n{empresas_texto}\n"
+        f"Resultado: {resultado}"
+    )
 
 
 def formatar_alerta(empresa: str, contratacao: dict, link: str, cidade_empresa: str = "") -> str:

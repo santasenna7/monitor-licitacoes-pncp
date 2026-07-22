@@ -5,7 +5,7 @@ import os
 
 from src.cnpj_lookup import consultar_cnpj
 from src.pncp_search import buscar_contratacoes_abertas, filtrar_por_palavras_chave, filtrar_por_prazo, dias_restantes, link_pncp
-from src.telegram_alert import enviar_telegram, formatar_alerta
+from src.telegram_alert import enviar_telegram, formatar_alerta, formatar_status
 from src.state import carregar_estado, salvar_estado, id_contratacao
 
 CAMINHO_EMPRESAS = os.path.join(os.path.dirname(__file__), "config", "empresas.json")
@@ -100,7 +100,11 @@ def main() -> int:
     estado["notificados"] = sorted(notificados)
     salvar_estado(estado)
 
-    print(f"\nConcluido. {novos_alertas} novo(s) alerta(s) enviado(s).")
+    nomes_empresas = [e.get("nome", e["cnpj"]) for e in empresas]
+    mensagem_status = formatar_status(nomes_empresas, novos_alertas)
+    enviar_telegram(mensagem_status)
+
+    print(f"\nConcluido. {novos_alertas} novo(s) alerta(s) enviado(s). Status enviado no Telegram.")
     return 0
 
 
