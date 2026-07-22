@@ -4,7 +4,13 @@
     "cnpj": "22197030000172",
     "cidade": "BARBACENA",
     "dias_minimo_prazo": 5,
-    "palavras_chave_extra": ["odontologia", "dentista", "dental", "odontologico", "protese", "implante", "clareamento", "periodontia", "endodontia", "ortodontia"],
+    "palavras_chave_extra": [
+      "odontologia", "dentista", "dental", "odontologico",
+      "protese", "implante", "clareamento", "periodontia",
+      "endodontia", "ortodontia", "odontologico", "odonto",
+      "equipamento odontologico", "material dentario",
+      "cadeira odontologica", "instrumental odontologico"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -12,7 +18,11 @@
     "cnpj": "25238019000100",
     "cidade": "BARBACENA",
     "dias_minimo_prazo": 5,
-    "palavras_chave_extra": ["comercio", "loja", "varejo", "revenda", "mercadoria"],
+    "palavras_chave_extra": [
+      "comercio", "loja", "varejo", "revenda", "mercadoria",
+      "produtos", "fornecimento", "aquisicao", "material de expediente",
+      "material de escritorio", " papelaria", "mobiliario"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -20,7 +30,12 @@
     "cnpj": "18839280000191",
     "cidade": "BELO HORIZONTE",
     "dias_minimo_prazo": 5,
-    "palavras_chave_extra": ["dedetizacao", "desinsetizacao", "desratizacao", "fumacaca", "controle de pragas", "higienizacao", "limpeza", "sanitario"],
+    "palavras_chave_extra": [
+      "dedetizacao", "desinsetizacao", "desratizacao", "fumacaca",
+      "controle de pragas", "higienizacao", "limpeza", "sanitario",
+      "servico de limpeza", "limpeza predial", "limpeza hospitalar",
+      "higienizacao hospitalar", "controle vetorial"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -28,7 +43,20 @@
     "cnpj": "11591079000199",
     "cidade": "BARBACENA",
     "dias_minimo_prazo": 5,
-    "palavras_chave_extra": ["farmacia", "medicamento", "remedio", "farmaceutico", "saude", "higiene", "cosmetico"],
+    "palavras_chave_extra": [
+      "farmacia", "medicamento", "remedio", "farmaceutico",
+      "saude", "higiene", "cosmetico",
+      "insumo hospitalar", "material hospitalar",
+      "produtos farmaceuticos", "produtos para saude",
+      "medicamento hospitalar", "insumos de saude",
+      "fornecimento de medicamentos", "aquisicao de medicamentos",
+      "dispensario", "farmacia popular", "farmacia basica",
+      "medicamento controlado", "medicamento generics",
+      "antibiotico", "analgesico", "anti-inflamatorio",
+      "insulina", "vacina", "soro", "colirio", "pomada",
+      "capsula", "comprimido", "injetavel", "ampola",
+      "materiais medical hospitalar", "equipamento medico"
+    ],
     "ufs_interesse": ["MG"]
   }
 ]

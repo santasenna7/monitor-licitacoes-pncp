@@ -1,10 +1,11 @@
 import re
 import time
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 
 import requests
 
-BASE_URL = "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta"
+BASE_URL_PROPOSTA = "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta"
+BASE_URL_PUBLICACAO = "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao"
 
 MODALIDADES = {
     1: "Leilão - Eletrônico",
@@ -23,11 +24,11 @@ MODALIDADES = {
 }
 
 
-def _get_com_retentativa(params: dict, tentativas: int = 5) -> dict:
+def _get_com_retentativa(url: str, params: dict, tentativas: int = 5) -> dict:
     ultimo_erro = None
     for tentativa in range(1, tentativas + 1):
         try:
-            resp = requests.get(BASE_URL, params=params, timeout=30)
+            resp = requests.get(url, params=params, timeout=45)
             if resp.status_code == 204:
                 return {"data": [], "totalPaginas": 0}
             if resp.status_code == 429:
@@ -60,7 +61,43 @@ def buscar_contratacoes_abertas(data_final: date = None, uf: str = None) -> list
             if uf:
                 params["uf"] = uf
 
-            corpo = _get_com_retentativa(params)
+            corpo = _get_com_retentativa(BASE_URL_PROPOSTA, params)
+            itens = corpo.get("data", [])
+            if not itens:
+                break
+
+            for item in itens:
+                item["_modalidade"] = nome_modalidade
+                resultados.append(item)
+
+            total_paginas = corpo.get("totalPaginas", 1)
+            if pagina >= total_paginas:
+                break
+            pagina += 1
+            time.sleep(2)
+
+    return resultados
+
+
+def buscar_contratacoes_publicadas(data_inicial: date = None, data_final: date = None, uf: str = None) -> list:
+    data_inicial = data_inicial or date.today() - timedelta(days=30)
+    data_final = data_final or date.today() + timedelta(days=60)
+
+    resultados = []
+    for cod_modalidade, nome_modalidade in MODALIDADES.items():
+        pagina = 1
+        while True:
+            params = {
+                "dataInicial": data_inicial.strftime("%Y%m%d"),
+                "dataFinal": data_final.strftime("%Y%m%d"),
+                "codigoModalidadeContratacao": cod_modalidade,
+                "pagina": pagina,
+                "tamanhoPagina": 50,
+            }
+            if uf:
+                params["uf"] = uf
+
+            corpo = _get_com_retentativa(BASE_URL_PUBLICACAO, params)
             itens = corpo.get("data", [])
             if not itens:
                 break

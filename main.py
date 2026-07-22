@@ -4,7 +4,7 @@ import json
 import os
 
 from src.cnpj_lookup import consultar_cnpj
-from src.pncp_search import buscar_contratacoes_abertas, filtrar_por_palavras_chave, filtrar_por_prazo, dias_restantes, link_pncp
+from src.pncp_search import buscar_contratacoes_abertas, buscar_contratacoes_publicadas, filtrar_por_palavras_chave, filtrar_por_prazo, dias_restantes, link_pncp
 from src.telegram_alert import enviar_telegram, formatar_alerta, formatar_status
 from src.state import carregar_estado, salvar_estado, id_contratacao
 
@@ -30,11 +30,24 @@ def main() -> int:
     if ufs_todas:
         todas_contratacoes = []
         for uf in ufs_todas:
-            print(f"   -> Buscando licitacoes em {uf}...")
+            print(f"   -> Buscando licitacoes em {uf} (propostas abertas)...")
             todas_contratacoes.extend(buscar_contratacoes_abertas(uf=uf))
+            print(f"   -> Buscando licitacoes em {uf} (publicadas)...")
+            todas_contratacoes.extend(buscar_contratacoes_publicadas(uf=uf))
     else:
         todas_contratacoes = buscar_contratacoes_abertas()
-    print(f"   -> {len(todas_contratacoes)} contratacoes com propostas em aberto encontradas.")
+        todas_contratacoes.extend(buscar_contratacoes_publicadas())
+
+    ids_vistos = set()
+    contratacoes_unicas = []
+    for c in todas_contratacoes:
+        cid = c.get("numeroControlePNCP") or f"{c.get('orgaoEntidade',{}).get('cnpj','')}-{c.get('anoCompra','')}-{c.get('sequencialCompra','')}"
+        if cid not in ids_vistos:
+            ids_vistos.add(cid)
+            contratacoes_unicas.append(c)
+    todas_contratacoes = contratacoes_unicas
+
+    print(f"   -> {len(todas_contratacoes)} contratacoes unicas encontradas.")
 
     estado = carregar_estado()
     notificados = set(estado.get("notificados", []))
