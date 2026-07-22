@@ -27,7 +27,7 @@ def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bo
     return True
 
 
-def formatar_alerta(empresa: str, contratacao: dict, link: str) -> str:
+def formatar_alerta(empresa: str, contratacao: dict, link: str, cidade_empresa: str = "") -> str:
     orgao = contratacao.get("orgaoEntidade", {}).get("razaoSocial", "Orgao nao informado")
     modalidade = contratacao.get("_modalidade", "")
     objeto = (contratacao.get("objetoCompra") or "").strip()
@@ -40,8 +40,12 @@ def formatar_alerta(empresa: str, contratacao: dict, link: str) -> str:
     municipio = contratacao.get("unidadeOrgao", {}).get("municipioNome", "")
     local = f"{municipio}/{uf}" if municipio else uf
 
+    tag_local = ""
+    if cidade_empresa and municipio and cidade_empresa.upper() in municipio.upper():
+        tag_local = " LOCAL"
+
     return (
-        f"<b>Nova licitacao encontrada</b>\n"
+        f"<b>Nova licitacao encontrada{tag_local}</b>\n"
         f"Empresa monitorada: {empresa}\n"
         f"Local: {local}\n"
         f"Modalidade: {modalidade}\n"
