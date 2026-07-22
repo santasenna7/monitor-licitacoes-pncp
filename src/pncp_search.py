@@ -1,0 +1,93 @@
+import time
+from datetime import date
+
+import requests
+
+BASE_URL = "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta"
+
+MODALIDADES = {
+    1: "Leilão - Eletrônico",
+    2: "Diálogo Competitivo",
+    3: "Concurso",
+    4: "Concorrência - Eletrônica",
+    5: "Concorrência - Presencial",
+    6: "Pregão - Eletrônico",
+    7: "Pregão - Presencial",
+    8: "Dispensa de Licitação",
+    9: "Inexigibilidade",
+    10: "Manifestação de Interesse",
+    11: "Pré-qualificação",
+    12: "Credenciamento",
+    13: "Leilão - Presencial",
+}
+
+
+def _get_com_retentativa(params: dict, tentativas: int = 3) -> dict:
+    ultimo_erro = None
+    for tentativa in range(1, tentativas + 1):
+        try:
+            resp = requests.get(BASE_URL, params=params, timeout=30)
+            if resp.status_code == 204:
+                return {"data": [], "totalPaginas": 0}
+            resp.raise_for_status()
+            return resp.json()
+        except requests.RequestException as e:
+            ultimo_erro = e
+            time.sleep(2 * tentativa)
+    raise RuntimeError(f"Falha ao consultar PNCP ({params}): {ultimo_erro}")
+
+
+def buscar_contratacoes_abertas(data_final: date = None, uf: str = None) -> list:
+    data_final = data_final or date.today()
+    data_final_str = data_final.strftime("%Y%m%d")
+
+    resultados = []
+    for cod_modalidade, nome_modalidade in MODALIDADES.items():
+        pagina = 1
+        while True:
+            params = {
+                "dataFinal": data_final_str,
+                "codigoModalidadeContratacao": cod_modalidade,
+                "pagina": pagina,
+                "tamanhoPagina": 50,
+            }
+            if uf:
+                params["uf"] = uf
+
+            corpo = _get_com_retentativa(params)
+            itens = corpo.get("data", [])
+            if not itens:
+                break
+
+            for item in itens:
+                item["_modalidade"] = nome_modalidade
+                resultados.append(item)
+
+            total_paginas = corpo.get("totalPaginas", 1)
+            if pagina >= total_paginas:
+                break
+            pagina += 1
+            time.sleep(0.3)
+
+    return resultados
+
+
+def filtrar_por_palavras_chave(contratacoes: list, palavras_chave: list) -> list:
+    if not palavras_chave:
+        return []
+    termos = [p.lower() for p in palavras_chave]
+    encontrados = []
+    for c in contratacoes:
+        objeto = (c.get("objetoCompra") or "").lower()
+        if any(termo in objeto for termo in termos):
+            encontrados.append(c)
+    return encontrados
+
+
+def link_pncp(contratacao: dict) -> str:
+    cnpj = contratacao.get("orgaoEntidade", {}).get("cnpj", "")
+    ano = contratacao.get("anoCompra", "")
+    sequencial = contratacao.get("sequencialCompra", "")
+    if cnpj and ano and sequencial:
+        return f"https://pncp.gov.br/app/editais/{cnpj}/{ano}/{sequencial}"
+    return "https://pncp.gov.br"
