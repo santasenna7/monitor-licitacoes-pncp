@@ -1,3 +1,4 @@
+import re
 import time
 from datetime import date
 
@@ -77,14 +78,29 @@ def buscar_contratacoes_abertas(data_final: date = None, uf: str = None) -> list
     return resultados
 
 
-def filtrar_por_palavras_chave(contratacoes: list, palavras_chave: list) -> list:
+def filtrar_por_palavras_chave(contratacoes: list, palavras_chave: list, cnaes: list = None) -> list:
     if not palavras_chave:
         return []
     termos = [p.lower() for p in palavras_chave]
+    cnae_codigos = [str(c) for c in (cnaes or []) if c]
     encontrados = []
     for c in contratacoes:
         objeto = (c.get("objetoCompra") or "").lower()
-        if any(termo in objeto for termo in termos):
+        numero_processo = str(c.get("numeroControlePNCP") or "")
+        palavras_objeto = set(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", objeto))
+
+        match_palavra = any(termo in objeto for termo in termos)
+        match_cnae = False
+        if cnae_codigos:
+            for codigo in cnae_codigos:
+                if codigo and codigo in objeto:
+                    match_cnae = True
+                    break
+                if codigo and codigo in palavras_objeto:
+                    match_cnae = True
+                    break
+
+        if match_palavra or match_cnae:
             encontrados.append(c)
     return encontrados
 

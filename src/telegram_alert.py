@@ -36,10 +36,14 @@ def formatar_alerta(empresa: str, contratacao: dict, link: str) -> str:
     encerramento = contratacao.get("dataEncerramentoProposta", "N/A")
     valor = contratacao.get("valorTotalEstimado")
     valor_fmt = f"R$ {valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") if valor else "nao informado"
+    uf = contratacao.get("unidadeOrgao", {}).get("ufSigla", "")
+    municipio = contratacao.get("unidadeOrgao", {}).get("municipioNome", "")
+    local = f"{municipio}/{uf}" if municipio else uf
 
     return (
         f"<b>Nova licitacao encontrada</b>\n"
         f"Empresa monitorada: {empresa}\n"
+        f"Local: {local}\n"
         f"Modalidade: {modalidade}\n"
         f"Orgao: {orgao}\n"
         f"Objeto: {objeto}\n"

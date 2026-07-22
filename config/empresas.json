@@ -2,25 +2,29 @@
   {
     "nome": "Adriano do Nascimento Nogueira Odontologia",
     "cnpj": "22197030000172",
-    "palavras_chave_extra": [],
+    "cidade": "BARBACENA",
+    "palavras_chave_extra": ["odontologia", "dentista", "dental", "odontologico", "protese", "implante", "clareamento", "periodontia", "endodontia", "ortodontia"],
     "ufs_interesse": ["MG"]
   },
   {
     "nome": "Carlos Batista da Silva",
     "cnpj": "25238019000100",
-    "palavras_chave_extra": [],
+    "cidade": "BARBACENA",
+    "palavras_chave_extra": ["comercio", "loja", "varejo", "revenda", "mercadoria"],
     "ufs_interesse": ["MG"]
   },
   {
     "nome": "DDA - Dedetizadores Associados",
     "cnpj": "18839280000191",
-    "palavras_chave_extra": [],
+    "cidade": "BELO HORIZONTE",
+    "palavras_chave_extra": ["dedetizacao", "desinsetizacao", "desratizacao", "fumacaca", "controle de pragas", "higienizacao", "limpeza", "sanitario"],
     "ufs_interesse": ["MG"]
   },
   {
     "nome": "Drogaria Costa & Costa de Barbacena",
     "cnpj": "11591079000199",
-    "palavras_chave_extra": [],
+    "cidade": "BARBACENA",
+    "palavras_chave_extra": ["farmacia", "medicamento", "remedio", "farmaceutico", "saude", "higiene", "cosmetico"],
     "ufs_interesse": ["MG"]
   }
 ]

@@ -68,7 +68,20 @@ def main() -> int:
                 if c.get("unidadeOrgao", {}).get("ufSigla") in uf_interesse
             ]
 
-        encontrados = filtrar_por_palavras_chave(candidatos, list(palavras))
+        cidade_interesse = (empresa_cfg.get("cidade") or "").upper().strip()
+        if cidade_interesse:
+            candidatos = [
+                c for c in candidatos
+                if cidade_interesse in (c.get("unidadeOrgao", {}).get("municipioNome") or "").upper()
+                or cidade_interesse in (c.get("objetoCompra") or "").upper()
+                or cidade_interesse in (c.get("orgaoEntidade", {}).get("razaoSocial") or "").upper()
+            ]
+
+        cnae_codigo = dados_empresa["cnae_principal"].get("codigo", "")
+        cnaes_sec_codigos = [c.get("codigo", "") for c in dados_empresa["cnaes_secundarios"]]
+        todos_cnaes = [cnae_codigo] + cnaes_sec_codigos
+
+        encontrados = filtrar_por_palavras_chave(candidatos, list(palavras), todos_cnaes)
         print(f"   -> {len(encontrados)} licitacoes compatíveis.")
 
         print(f"[4/4] Enviando alertas de licitacoes novas...")
