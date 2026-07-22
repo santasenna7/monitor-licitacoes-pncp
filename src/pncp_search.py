@@ -8,6 +8,13 @@ BASE_URL_PROPOSTA = "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta"
 BASE_URL_PUBLICACAO = "https://pncp.gov.br/api/consulta/v1/contratacoes/publicacao"
 
 MODALIDADES = {
+    6: "Pregão - Eletrônico",
+    4: "Concorrência - Eletrônica",
+    8: "Dispensa de Licitação",
+    9: "Inexigibilidade",
+}
+
+TODAS_MODALIDADES = {
     1: "Leilão - Eletrônico",
     2: "Diálogo Competitivo",
     3: "Concurso",
