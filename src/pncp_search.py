@@ -52,13 +52,14 @@ def _get_com_retentativa(url: str, params: dict, tentativas: int = 5) -> dict:
 
 
 def buscar_contratacoes_abertas(data_final: date = None, uf: str = None) -> list:
-    data_final = data_final or date.today()
+    if not data_final:
+        data_final = date.today() + timedelta(days=60)
     data_final_str = data_final.strftime("%Y%m%d")
 
     resultados = []
     for cod_modalidade, nome_modalidade in MODALIDADES.items():
         pagina = 1
-        while True:
+        while pagina <= 20:
             params = {
                 "dataFinal": data_final_str,
                 "codigoModalidadeContratacao": cod_modalidade,
