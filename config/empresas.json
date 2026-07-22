@@ -66,5 +66,23 @@
       "kits de teste", "reagente de laboratorio"
     ],
     "ufs_interesse": ["MG"]
+  },
+  {
+    "nome": "J.L. Treinamentos e Consultoria LTDA",
+    "cnpj": "51161852000100",
+    "cidade": "BARBACENA",
+    "dias_minimo_prazo": 5,
+    "max_alertas_por_empresa": 5,
+    "palavras_chave_extra": [
+      "treinamento", "capacitacao", "curso",
+      "desenvolvimento profissional", "desenvolvimento gerencial",
+      "consultoria", "assessoria", "gestao",
+      "educacao corporativa", "plano de cargos e salarios",
+      "gestao de pessoas", "recursos humanos",
+      "qualificacao profissional", "habilitacao profissional",
+      "aprendizagem", "instrucao", "ensino",
+      "palestra", "seminario", "workshop", "congresso"
+    ],
+    "ufs_interesse": ["MG"]
   }
 ]

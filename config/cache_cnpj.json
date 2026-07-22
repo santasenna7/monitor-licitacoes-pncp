@@ -1,0 +1,133 @@
+{
+  "22197030000172": {
+    "cnpj": "22197030000172",
+    "razao_social": "",
+    "nome_fantasia": "",
+    "uf": "MG",
+    "municipio": "BARBACENA",
+    "cnae_principal": {
+      "codigo": null,
+      "descricao": ""
+    },
+    "cnaes_secundarios": [],
+    "palavras_chave": []
+  },
+  "25238019000100": {
+    "cnpj": "25238019000100",
+    "razao_social": "",
+    "nome_fantasia": "",
+    "uf": "MG",
+    "municipio": "BARBACENA",
+    "cnae_principal": {
+      "codigo": null,
+      "descricao": ""
+    },
+    "cnaes_secundarios": [],
+    "palavras_chave": []
+  },
+  "18839280000191": {
+    "cnpj": "18839280000191",
+    "razao_social": "DDA - DEDETIZADORES ASSOCIADOS",
+    "nome_fantasia": "DDA",
+    "uf": "MG",
+    "municipio": "BELO HORIZONTE",
+    "cnae_principal": {
+      "codigo": 8122200,
+      "descricao": "Imunização e controle de pragas urbanas"
+    },
+    "cnaes_secundarios": [
+      {
+        "codigo": 161001,
+        "descricao": "Serviço de pulverização e controle de pragas agrícolas"
+      },
+      {
+        "codigo": 3702900,
+        "descricao": "Atividades relacionadas a esgoto, exceto a gestão de redes"
+      },
+      {
+        "codigo": 3811400,
+        "descricao": "Coleta de resíduos não-perigosos"
+      },
+      {
+        "codigo": 4618499,
+        "descricao": "Outros representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente"
+      },
+      {
+        "codigo": 7490199,
+        "descricao": "Outras atividades profissionais, científicas e técnicas não especificadas anteriormente"
+      },
+      {
+        "codigo": 7739099,
+        "descricao": "Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador"
+      },
+      {
+        "codigo": 8111700,
+        "descricao": "Serviços combinados para apoio a edifícios, exceto condomínios prediais"
+      },
+      {
+        "codigo": 8121400,
+        "descricao": "Limpeza em prédios e em domicílios"
+      },
+      {
+        "codigo": 8129000,
+        "descricao": "Atividades de limpeza não especificadas anteriormente"
+      },
+      {
+        "codigo": 8130300,
+        "descricao": "Atividades paisagísticas"
+      }
+    ],
+    "palavras_chave": [
+      "agentes",
+      "agrícolas",
+      "aluguel",
+      "anteriormente",
+      "apoio",
+      "científicas",
+      "coleta",
+      "combinados",
+      "comerciais",
+      "comércio",
+      "condomínios",
+      "controle",
+      "domicílios",
+      "edifícios",
+      "equipamentos",
+      "esgoto",
+      "especializado",
+      "gestão",
+      "imunização",
+      "industriais",
+      "limpeza",
+      "máquinas",
+      "operador",
+      "paisagísticas",
+      "perigosos",
+      "pragas",
+      "prediais",
+      "profissionais",
+      "prédios",
+      "pulverização",
+      "redes",
+      "relacionadas",
+      "representantes",
+      "resíduos",
+      "serviço",
+      "técnicas",
+      "urbanas"
+    ]
+  },
+  "11591079000199": {
+    "cnpj": "11591079000199",
+    "razao_social": "",
+    "nome_fantasia": "",
+    "uf": "MG",
+    "municipio": "BARBACENA",
+    "cnae_principal": {
+      "codigo": null,
+      "descricao": ""
+    },
+    "cnaes_secundarios": [],
+    "palavras_chave": []
+  }
+}
