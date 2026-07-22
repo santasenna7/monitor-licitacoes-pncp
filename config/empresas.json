@@ -84,5 +84,24 @@
       "palestra", "seminario", "workshop", "congresso"
     ],
     "ufs_interesse": ["MG"]
+  },
+  {
+    "nome": "Felipe M. Producoes LTDA",
+    "cnpj": "22692013000101",
+    "cidade": "BARBACENA",
+    "dias_minimo_prazo": 5,
+    "max_alertas_por_empresa": 5,
+    "palavras_chave_extra": [
+      "producao musical", "producao artistica", "producao cultural",
+      "sonorizacao", "iluminacao", "equipamento de audio",
+      "equipamento de som", "mixagem", "masterizacao",
+      "estudio de gravacao", "ensaio", "show",
+      "evento cultural", "festival", "concerto",
+      "locucao", "jingle", "publicidade sonora",
+      "video", "filmagem", "fotografia",
+      "locacao de equipamentos de audio e video",
+      "cobertura de eventos"
+    ],
+    "ufs_interesse": ["MG"]
   }
 ]
