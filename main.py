@@ -93,7 +93,13 @@ def main() -> int:
         print(f"   -> {len(encontrados)} licitacoes compatíveis (prazo minimo: {dias_minimo} dias).")
 
         print(f"[4/4] Enviando alertas de licitacoes novas...")
+        max_alertas = empresa_cfg.get("max_alertas_por_empresa", 5)
+        alertas_enviados_empresa = 0
         for contratacao in encontrados:
+            if alertas_enviados_empresa >= max_alertas:
+                print(f"   -> Limite de {max_alertas} alertas atingido para esta empresa.")
+                break
+
             cid = id_contratacao(contratacao)
             chave = f"{cnpj}:{cid}"
             if chave in notificados:
@@ -104,8 +110,9 @@ def main() -> int:
             enviado = enviar_telegram(mensagem)
             if enviado:
                 novos_alertas += 1
+                alertas_enviados_empresa += 1
             notificados.add(chave)
-            time.sleep(0.5)
+            time.sleep(3)
 
     estado["notificados"] = sorted(notificados)
     salvar_estado(estado)

@@ -1,4 +1,5 @@
 import os
+import time
 from datetime import datetime
 
 import requests
@@ -11,8 +12,7 @@ def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bo
     chat_id = chat_id or os.environ.get("TELEGRAM_CHAT_ID")
 
     if not token or not chat_id:
-        print("[AVISO] TELEGRAM_BOT_TOKEN ou TELEGRAM_CHAT_ID nao configurados. "
-              "Mensagem nao enviada, exibindo no log:\n", mensagem)
+        print("[AVISO] TELEGRAM_BOT_TOKEN ou TELEGRAM_CHAT_ID nao configurados.")
         return False
 
     url = API_URL.format(token=token)
@@ -22,11 +22,19 @@ def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bo
         "parse_mode": "HTML",
         "disable_web_page_preview": False,
     }
-    resp = requests.post(url, data=payload, timeout=15)
-    if not resp.ok:
+    for tentativa in range(3):
+        resp = requests.post(url, data=payload, timeout=15)
+        if resp.ok:
+            return True
+        if resp.status_code == 429:
+            retry_after = resp.json().get("parameters", {}).get("retry_after", 30)
+            print(f"[429] Telegram rate limit, aguardando {retry_after}s...")
+            time.sleep(retry_after + 1)
+            continue
         print("[ERRO] Falha ao enviar Telegram:", resp.status_code, resp.text)
         return False
-    return True
+    print("[ERRO] Telegram: 3 tentativas falharam.")
+    return False
 
 
 def formatar_status(lista_empresas: list, novos: int) -> str:

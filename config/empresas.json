@@ -4,12 +4,14 @@
     "cnpj": "22197030000172",
     "cidade": "BARBACENA",
     "dias_minimo_prazo": 5,
+    "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
       "odontologia", "dentista", "dental", "odontologico",
-      "protese", "implante", "clareamento", "periodontia",
-      "endodontia", "ortodontia", "odontologico", "odonto",
+      "protese dentaria", "implante dentario", "clareamento dental",
+      "periodontia", "endodontia", "ortodontia", "odonto",
       "equipamento odontologico", "material dentario",
-      "cadeira odontologica", "instrumental odontologico"
+      "cadeira odontologica", "instrumental odontologico",
+      "escovas de dente", "creme dental", "fio dental"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -18,10 +20,11 @@
     "cnpj": "25238019000100",
     "cidade": "BARBACENA",
     "dias_minimo_prazo": 5,
+    "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "comercio", "loja", "varejo", "revenda", "mercadoria",
-      "produtos", "fornecimento", "aquisicao", "material de expediente",
-      "material de escritorio", " papelaria", "mobiliario"
+      "comercio varejista", "loja", "revenda de produtos",
+      "material de expediente", "material de escritorio",
+      "papelaria", "mobiliario comercial", "equipamento comercial"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -30,11 +33,14 @@
     "cnpj": "18839280000191",
     "cidade": "BELO HORIZONTE",
     "dias_minimo_prazo": 5,
+    "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
       "dedetizacao", "desinsetizacao", "desratizacao", "fumacaca",
-      "controle de pragas", "higienizacao", "limpeza", "sanitario",
-      "servico de limpeza", "limpeza predial", "limpeza hospitalar",
-      "higienizacao hospitalar", "controle vetorial"
+      "controle de pragas urbanas", "higienizacao predial",
+      "limpeza predial", "limpeza hospitalar",
+      "higienizacao hospitalar", "controle vetorial",
+      "servico de dedetizacao", "servico de desratizacao",
+      "eliminacao de pragas", "manutencao predial"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -43,19 +49,21 @@
     "cnpj": "11591079000199",
     "cidade": "BARBACENA",
     "dias_minimo_prazo": 5,
+    "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
-      "farmacia", "medicamento", "remedio", "farmaceutico",
-      "saude", "higiene", "cosmetico",
+      "medicamento", "farmaceutico",
       "insumo hospitalar", "material hospitalar",
       "produtos farmaceuticos", "produtos para saude",
       "medicamento hospitalar", "insumos de saude",
       "fornecimento de medicamentos", "aquisicao de medicamentos",
-      "dispensario", "farmacia popular", "farmacia basica",
-      "medicamento controlado", "medicamento generics",
+      "farmacia popular", "farmacia basica",
+      "medicamento controlado", "medicamento generico",
       "antibiotico", "analgesico", "anti-inflamatorio",
-      "insulina", "vacina", "soro", "colirio", "pomada",
-      "capsula", "comprimido", "injetavel", "ampola",
-      "materiais medical hospitalar", "equipamento medico"
+      "insulina", "vacina", "soro fisiologico", "colirio",
+      "pomada medicamento", "capsula", "comprimido", "injetavel",
+      "material medico hospitalar", "equipamento medico",
+      "dispositivo medico", "instrumento medico",
+      "kits de teste", "reagente de laboratorio"
     ],
     "ufs_interesse": ["MG"]
   }
