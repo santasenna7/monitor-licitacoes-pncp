@@ -22,18 +22,23 @@ MODALIDADES = {
 }
 
 
-def _get_com_retentativa(params: dict, tentativas: int = 3) -> dict:
+def _get_com_retentativa(params: dict, tentativas: int = 5) -> dict:
     ultimo_erro = None
     for tentativa in range(1, tentativas + 1):
         try:
             resp = requests.get(BASE_URL, params=params, timeout=30)
             if resp.status_code == 204:
                 return {"data": [], "totalPaginas": 0}
+            if resp.status_code == 429:
+                espera = min(30 * tentativa, 120)
+                print(f"   [429] Rate limit atingido, aguardando {espera}s...")
+                time.sleep(espera)
+                continue
             resp.raise_for_status()
             return resp.json()
         except requests.RequestException as e:
             ultimo_erro = e
-            time.sleep(2 * tentativa)
+            time.sleep(5 * tentativa)
     raise RuntimeError(f"Falha ao consultar PNCP ({params}): {ultimo_erro}")
 
 
@@ -67,7 +72,7 @@ def buscar_contratacoes_abertas(data_final: date = None, uf: str = None) -> list
             if pagina >= total_paginas:
                 break
             pagina += 1
-            time.sleep(0.3)
+            time.sleep(2)
 
     return resultados
 

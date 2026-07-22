@@ -22,8 +22,18 @@ def main() -> int:
         print("Nenhuma empresa cadastrada em config/empresas.json")
         return 0
 
+    ufs_todas = set()
+    for e in empresas:
+        ufs_todas.update(e.get("ufs_interesse", []))
+
     print(f"[1/4] Buscando contratacoes abertas no PNCP...")
-    todas_contratacoes = buscar_contratacoes_abertas()
+    if ufs_todas:
+        todas_contratacoes = []
+        for uf in ufs_todas:
+            print(f"   -> Buscando licitacoes em {uf}...")
+            todas_contratacoes.extend(buscar_contratacoes_abertas(uf=uf))
+    else:
+        todas_contratacoes = buscar_contratacoes_abertas()
     print(f"   -> {len(todas_contratacoes)} contratacoes com propostas em aberto encontradas.")
 
     estado = carregar_estado()
