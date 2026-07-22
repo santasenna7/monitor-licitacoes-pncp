@@ -4,7 +4,7 @@ import json
 import os
 
 from src.cnpj_lookup import consultar_cnpj
-from src.pncp_search import buscar_contratacoes_abertas, filtrar_por_palavras_chave, link_pncp
+from src.pncp_search import buscar_contratacoes_abertas, filtrar_por_palavras_chave, filtrar_por_prazo, dias_restantes, link_pncp
 from src.telegram_alert import enviar_telegram, formatar_alerta
 from src.state import carregar_estado, salvar_estado, id_contratacao
 
@@ -74,10 +74,13 @@ def main() -> int:
 
         encontrados = filtrar_por_palavras_chave(candidatos, list(palavras), todos_cnaes)
 
+        dias_minimo = empresa_cfg.get("dias_minimo_prazo", 5)
+        encontrados = filtrar_por_prazo(encontrados, dias_minimo)
+
         cidade_empresa = (empresa_cfg.get("cidade") or "").upper().strip()
         if cidade_empresa:
             encontrados.sort(key=lambda c: 0 if cidade_empresa in (c.get("unidadeOrgao", {}).get("municipioNome") or "").upper() else 1)
-        print(f"   -> {len(encontrados)} licitacoes compatíveis.")
+        print(f"   -> {len(encontrados)} licitacoes compatíveis (prazo minimo: {dias_minimo} dias).")
 
         print(f"[4/4] Enviando alertas de licitacoes novas...")
         for contratacao in encontrados:

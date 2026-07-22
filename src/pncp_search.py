@@ -1,6 +1,6 @@
 import re
 import time
-from datetime import date
+from datetime import date, datetime
 
 import requests
 
@@ -112,3 +112,27 @@ def link_pncp(contratacao: dict) -> str:
     if cnpj and ano and sequencial:
         return f"https://pncp.gov.br/app/editais/{cnpj}/{ano}/{sequencial}"
     return "https://pncp.gov.br"
+
+
+def dias_restantes(contratacao: dict) -> int | None:
+    data_enc = contratacao.get("dataEncerramentoProposta")
+    if not data_enc:
+        return None
+    try:
+        if "T" in str(data_enc):
+            dt = datetime.fromisoformat(str(data_enc).replace("Z", "+00:00")).date()
+        else:
+            dt = datetime.strptime(str(data_enc)[:10], "%Y-%m-%d").date()
+        return (dt - date.today()).days
+    except Exception:
+        return None
+
+
+def filtrar_por_prazo(contratacoes: list, dias_minimo: int) -> list:
+    filtrados = []
+    for c in contratacoes:
+        dias = dias_restantes(c)
+        if dias is None or dias >= dias_minimo:
+            c["_dias_restantes"] = dias
+            filtrados.append(c)
+    return filtrados

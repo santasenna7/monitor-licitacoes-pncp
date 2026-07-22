@@ -44,6 +44,9 @@ def formatar_alerta(empresa: str, contratacao: dict, link: str, cidade_empresa: 
     if cidade_empresa and municipio and cidade_empresa.upper() in municipio.upper():
         tag_local = " LOCAL"
 
+    dias = contratacao.get("_dias_restantes")
+    dias_texto = f"{dias} dias restantes" if dias is not None else "prazo nao informado"
+
     return (
         f"<b>Nova licitacao encontrada{tag_local}</b>\n"
         f"Empresa monitorada: {empresa}\n"
@@ -52,6 +55,6 @@ def formatar_alerta(empresa: str, contratacao: dict, link: str, cidade_empresa: 
         f"Orgao: {orgao}\n"
         f"Objeto: {objeto}\n"
         f"Valor estimado: {valor_fmt}\n"
-        f"Encerramento das propostas: {encerramento}\n"
+        f"Prazo: {encerramento} ({dias_texto})\n"
         f"{link}"
     )
