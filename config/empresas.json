@@ -1,8 +1,20 @@
 [
   {
-    "nome": "Minha Empresa Exemplo LTDA",
-    "cnpj": "00000000000000",
+    "nome": "Carlos Batista da Silva",
+    "cnpj": "25238019000100",
     "palavras_chave_extra": [],
-    "ufs_interesse": []
+    "ufs_interesse": ["MG"]
+  },
+  {
+    "nome": "DDA - Dedetizadores Associados",
+    "cnpj": "18839280000191",
+    "palavras_chave_extra": [],
+    "ufs_interesse": ["MG"]
+  },
+  {
+    "nome": "Drogaria Costa & Costa de Barbacena",
+    "cnpj": "11591079000199",
+    "palavras_chave_extra": [],
+    "ufs_interesse": ["MG"]
   }
 ]
