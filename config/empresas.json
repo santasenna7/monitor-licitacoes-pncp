@@ -17,6 +17,11 @@
       "servicos odontologicos", "servico odontologico",
       "tratamento odontologico", "protese dentaria"
     ],
+    "exclusoes": [
+      "protese de joelho", "protese de quadril", "protese ortopedica",
+      "reabilitacao fisica", "reabilitacao motora",
+      "protese mamaria", "protese ocular"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -35,6 +40,10 @@
       "protetor auricular", "mascara", "respirador",
       "cinto paraquedista", "calca paraquedista"
     ],
+    "exclusoes": [
+      "seguranca da informacao", "seguranca publica", "seguranca alimentar",
+      "engenharia de seguranca", "seguranca de instalacoes"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -51,6 +60,13 @@
       "instalacao de barreiras fisicas",
       "controle pragas urbanas", "combate a pragas"
     ],
+    "exclusoes": [
+      "controle de qualidade", "controle de estoque",
+      "controle de acesso", "controle interno",
+      "gerenciamento de riscos", "controle de patrimonio",
+      "controle financeiro", "controle ambiental",
+      "controle de agua", "controle de saneamento"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -61,6 +77,9 @@
     "max_alertas_por_empresa": 5,
     "palavras_chave_extra": [
       "medicamentos", "medicamento", "farmacia"
+    ],
+    "exclusoes": [
+      "medicamento veterinario", "produto veterinario"
     ],
     "ufs_interesse": ["MG"]
   },
@@ -75,6 +94,21 @@
       "treinamento", "capacitacao", "curso",
       "consultoria", "gestao de pessoas"
     ],
+    "exclusoes": [
+      "treinamento de usuarios de software",
+      "treinamento de sistemas",
+      "treinamento em informatica",
+      "curso superior",
+      "curso tecnico",
+      "consultoria juridica",
+      "consultoria contabil",
+      "consultoria tributaria",
+      "consultoria ambiental",
+      "consultoria em ti",
+      "gestao de projetos de ti",
+      "gestao de contratos",
+      "gestao de licitacoes"
+    ],
     "ufs_interesse": ["MG"]
   },
   {
@@ -87,6 +121,14 @@
       "producao musical", "cantor solo", "musico solo",
       "musico sertanejo", "artista sertanejo",
       "cantor sertanejo", "sertanejo"
+    ],
+    "exclusoes": [
+      "producao de alimentos", "producao de asfalto",
+      "producao de leite", "producao agricola",
+      "producao de sementes", "producao de material",
+      "producao de mobiliario", "producao de vestuario",
+      "producao de combustivel", "producao de energia",
+      "producao de lixo", "producao de residuos"
     ],
     "ufs_interesse": ["MG"]
   }

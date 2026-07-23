@@ -123,30 +123,56 @@ def buscar_contratacoes_publicadas(data_inicial: date = None, data_final: date =
     return resultados
 
 
-def filtrar_por_palavras_chave(contratacoes: list, palavras_chave: list, cnaes: list = None) -> list:
+def _normalizar(texto: str) -> str:
+    texto = texto.lower()
+    texto = re.sub(r"[^\w\s]", " ", texto)
+    texto = re.sub(r"\s+", " ", texto).strip()
+    return texto
+
+
+def filtrar_por_palavras_chave(contratacoes: list, palavras_chave: list, cnaes: list = None, exclusoes: list = None) -> list:
     if not palavras_chave:
         return []
-    termos = [p.lower() for p in palavras_chave]
+
+    frases_exatas = []
+    palavras_solteiras = []
+    for p in palavras_chave:
+        p_normalizada = _normalizar(p)
+        if " " in p_normalizada:
+            frases_exatas.append(p_normalizada)
+        else:
+            palavras_solteiras.append(p_normalizada)
+
     cnae_codigos = [str(c) for c in (cnaes or []) if c]
+    termos_exclusao = [_normalizar(e) for e in (exclusoes or [])]
+
     encontrados = []
     for c in contratacoes:
-        objeto = (c.get("objetoCompra") or "").lower()
-        numero_processo = str(c.get("numeroControlePNCP") or "")
-        palavras_objeto = set(re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ]{4,}", objeto))
+        objeto = _normalizar(c.get("objetoCompra") or "")
 
-        match_palavra = any(termo in objeto for termo in termos)
-        match_cnae = False
-        if cnae_codigos:
+        if termos_exclusao:
+            if any(excl in objeto for excl in termos_exclusao):
+                continue
+
+        match = False
+
+        for frase in frases_exatas:
+            if frase in objeto:
+                match = True
+                break
+
+        if not match and palavras_solteiras:
+            match = any(pal in objeto for pal in palavras_solteiras)
+
+        if not match and cnae_codigos:
             for codigo in cnae_codigos:
                 if codigo and codigo in objeto:
-                    match_cnae = True
-                    break
-                if codigo and codigo in palavras_objeto:
-                    match_cnae = True
+                    match = True
                     break
 
-        if match_palavra or match_cnae:
+        if match:
             encontrados.append(c)
+
     return encontrados
 
 

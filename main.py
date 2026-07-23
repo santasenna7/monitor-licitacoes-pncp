@@ -82,7 +82,12 @@ def main() -> int:
         cnaes_sec_codigos = [c.get("codigo", "") for c in dados_empresa["cnaes_secundarios"]]
         todos_cnaes = [cnae_codigo] + cnaes_sec_codigos
 
-        encontrados = filtrar_por_palavras_chave(candidatos, list(palavras), todos_cnaes)
+        encontrados = filtrar_por_palavras_chave(
+            candidatos,
+            list(palavras),
+            todos_cnaes,
+            exclusoes=empresa_cfg.get("exclusoes", [])
+        )
 
         dias_minimo = empresa_cfg.get("dias_minimo_prazo", 5)
         encontrados = filtrar_por_prazo(encontrados, dias_minimo)
