@@ -61,13 +61,12 @@ def main() -> int:
             print(f"   [ERRO] Nao foi possivel consultar o CNPJ {cnpj}: {e}")
             continue
 
-        palavras = set(dados_empresa["palavras_chave"])
-        palavras.update(empresa_cfg.get("palavras_chave_extra", []))
+        palavras = set(empresa_cfg.get("palavras_chave_extra", []))
         razao_social = dados_empresa["razao_social"] or nome_cfg
 
         print(f"   -> Razao social: {razao_social}")
         print(f"   -> CNAE principal: {dados_empresa['cnae_principal']['descricao']}")
-        print(f"   -> {len(palavras)} palavras-chave geradas para busca.")
+        print(f"   -> {len(palavras)} palavras-chave definidas para busca.")
 
         print(f"[3/4] Cruzando com o objeto das licitacoes...")
         candidatos = todas_contratacoes
