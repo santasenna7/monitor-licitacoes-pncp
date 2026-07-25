@@ -6,6 +6,8 @@ import requests
 
 API_URL = "https://api.telegram.org/bot{token}/sendMessage"
 
+SEP = "━━━━━━━━━━━━━━━━━━━━━"
+
 
 def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bool:
     token = token or os.environ.get("TELEGRAM_BOT_TOKEN")
@@ -39,16 +41,18 @@ def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bo
 
 def formatar_status(lista_empresas: list, novos: int) -> str:
     agora = datetime.now().strftime("%d/%m/%Y %H:%M")
-    empresas_texto = "\n".join(f"  - {e}" for e in lista_empresas)
+    empresas_texto = "\n".join(f"  • {e}" for e in lista_empresas)
     if novos > 0:
-        resultado = f"{novos} nova(s) licitacao(oes) encontrada(s) e alerta(s) enviado(s)."
+        resultado = f"✅ {novos} nova(s) licitacao(oes) encontrada(s)."
     else:
         resultado = "Nenhuma licitacao nova encontrada nesta busca."
     return (
-        f"<b>Monitor de Licitacoes - Status</b>\n"
-        f"Hora: {agora}\n"
-        f"Empresas monitoradas:\n{empresas_texto}\n"
-        f"Resultado: {resultado}"
+        f"📊 <b>RELATORIO DO MONITOR</b>\n"
+        f"{SEP}\n"
+        f"🕐 <i>{agora}</i>\n\n"
+        f"🏢 <b>Empresas monitoradas:</b>\n"
+        f"{empresas_texto}\n\n"
+        f"📋 <b>Resultado:</b> {resultado}"
     )
 
 
@@ -67,21 +71,31 @@ def formatar_alerta(empresa: str, contratacao: dict, link: str, cidade_empresa: 
 
     tag_local = ""
     if cidade_empresa and municipio and cidade_empresa.upper() in municipio.upper():
-        tag_local = " LOCAL"
+        tag_local = " 📍 LOCAL"
 
     dias = contratacao.get("_dias_restantes")
-    dias_texto = f"{dias} dias restantes" if dias is not None else "prazo nao informado"
+    if dias is not None:
+        if dias <= 3:
+            dias_texto = f"⚠️ {dias} dias restantes"
+        elif dias <= 7:
+            dias_texto = f"🔶 {dias} dias restantes"
+        else:
+            dias_texto = f"🟢 {dias} dias restantes"
+    else:
+        dias_texto = "prazo nao informado"
 
     return (
-        f"<b>Nova licitacao encontrada{tag_local}</b>\n"
-        f"Empresa monitorada: {empresa}\n"
-        f"Local: {local}\n"
-        f"Modalidade: {modalidade}\n"
-        f"Orgao: {orgao}\n"
-        f"Objeto: {objeto}\n"
-        f"Valor estimado: {valor_fmt}\n"
-        f"Prazo: {encerramento} ({dias_texto})\n"
-        f"{link}"
+        f"🏢 <b>ALERTA EMPRESA{tag_local}</b>\n"
+        f"{SEP}\n"
+        f"🏭 <b>{empresa}</b>\n\n"
+        f"📍 <i>{local}</i>\n"
+        f"📑 <b>Modalidade:</b> {modalidade}\n"
+        f"🏛️ <b>Orgao:</b> {orgao}\n\n"
+        f"📝 <b>Objeto:</b>\n<i>{objeto}</i>\n\n"
+        f"💰 <b>Valor:</b> {valor_fmt}\n"
+        f"⏳ <b>Prazo:</b> {encerramento} ({dias_texto})\n"
+        f"{SEP}\n"
+        f"🔗 {link}"
     )
 
 
@@ -99,15 +113,25 @@ def formatar_alerta_cidade(cidade: str, contratacao: dict, link: str) -> str:
     local = f"{municipio}/{uf}" if municipio else uf
 
     dias = contratacao.get("_dias_restantes")
-    dias_texto = f"{dias} dias restantes" if dias is not None else "prazo nao informado"
+    if dias is not None:
+        if dias <= 3:
+            dias_texto = f"⚠️ {dias} dias restantes"
+        elif dias <= 7:
+            dias_texto = f"🔶 {dias} dias restantes"
+        else:
+            dias_texto = f"🟢 {dias} dias restantes"
+    else:
+        dias_texto = "prazo nao informado"
 
     return (
-        f"<b>Licitacao contendo '{cidade}'</b>\n"
-        f"Local: {local}\n"
-        f"Modalidade: {modalidade}\n"
-        f"Orgao: {orgao}\n"
-        f"Objeto: {objeto}\n"
-        f"Valor estimado: {valor_fmt}\n"
-        f"Prazo: {encerramento} ({dias_texto})\n"
-        f"{link}"
+        f"📍 <b>LICITACAO EM {cidade.upper()}</b>\n"
+        f"{SEP}\n"
+        f"📍 <i>{local}</i>\n"
+        f"📑 <b>Modalidade:</b> {modalidade}\n"
+        f"🏛️ <b>Orgao:</b> {orgao}\n\n"
+        f"📝 <b>Objeto:</b>\n<i>{objeto}</i>\n\n"
+        f"💰 <b>Valor:</b> {valor_fmt}\n"
+        f"⏳ <b>Prazo:</b> {encerramento} ({dias_texto})\n"
+        f"{SEP}\n"
+        f"🔗 {link}"
     )
