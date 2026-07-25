@@ -83,3 +83,31 @@ def formatar_alerta(empresa: str, contratacao: dict, link: str, cidade_empresa: 
         f"Prazo: {encerramento} ({dias_texto})\n"
         f"{link}"
     )
+
+
+def formatar_alerta_cidade(cidade: str, contratacao: dict, link: str) -> str:
+    orgao = contratacao.get("orgaoEntidade", {}).get("razaoSocial", "Orgao nao informado")
+    modalidade = contratacao.get("_modalidade", "")
+    objeto = (contratacao.get("objetoCompra") or "").strip()
+    if len(objeto) > 400:
+        objeto = objeto[:400] + "..."
+    encerramento = contratacao.get("dataEncerramentoProposta", "N/A")
+    valor = contratacao.get("valorTotalEstimado")
+    valor_fmt = f"R$ {valor:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".") if valor else "nao informado"
+    uf = contratacao.get("unidadeOrgao", {}).get("ufSigla", "")
+    municipio = contratacao.get("unidadeOrgao", {}).get("municipioNome", "")
+    local = f"{municipio}/{uf}" if municipio else uf
+
+    dias = contratacao.get("_dias_restantes")
+    dias_texto = f"{dias} dias restantes" if dias is not None else "prazo nao informado"
+
+    return (
+        f"<b>Licitacao contendo '{cidade}'</b>\n"
+        f"Local: {local}\n"
+        f"Modalidade: {modalidade}\n"
+        f"Orgao: {orgao}\n"
+        f"Objeto: {objeto}\n"
+        f"Valor estimado: {valor_fmt}\n"
+        f"Prazo: {encerramento} ({dias_texto})\n"
+        f"{link}"
+    )

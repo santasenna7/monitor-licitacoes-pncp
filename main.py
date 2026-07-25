@@ -5,7 +5,7 @@ import os
 
 from src.cnpj_lookup import consultar_cnpj
 from src.pncp_search import buscar_contratacoes_abertas, filtrar_por_palavras_chave, filtrar_por_prazo, dias_restantes, link_pncp
-from src.telegram_alert import enviar_telegram, formatar_alerta, formatar_status
+from src.telegram_alert import enviar_telegram, formatar_alerta, formatar_alerta_cidade, formatar_status
 from src.state import carregar_estado, salvar_estado, id_contratacao
 
 CAMINHO_EMPRESAS = os.path.join(os.path.dirname(__file__), "config", "empresas.json")
@@ -117,6 +117,35 @@ def main() -> int:
                 alertas_enviados_empresa += 1
             notificados.add(chave)
             time.sleep(3)
+
+    print(f"\n[Busca extra] Buscando licitacoes com 'Barbacena' no objeto...")
+    barbacena_termos = ["barbacena"]
+    candidatos_barbacena = [
+        c for c in todas_contratacoes
+        if c.get("unidadeOrgao", {}).get("ufSigla") == "MG"
+    ]
+    encontrados_barbacena = filtrar_por_palavras_chave(candidatos_barbacena, barbacena_termos)
+    encontrados_barbacena = filtrar_por_prazo(encontrados_barbacena, 5)
+
+    alertas_barbacena = 0
+    max_barbacena = 10
+    for contratacao in encontrados_barbacena:
+        if alertas_barbacena >= max_barbacena:
+            print(f"   -> Limite de {max_barbacena} alertas de Barbacena atingido.")
+            break
+        cid = id_contratacao(contratacao)
+        chave = f"barbacena:{cid}"
+        if chave in notificados:
+            continue
+        link = link_pncp(contratacao)
+        mensagem = formatar_alerta_cidade("Barbacena", contratacao, link)
+        enviado = enviar_telegram(mensagem)
+        if enviado:
+            novos_alertas += 1
+            alertas_barbacena += 1
+        notificados.add(chave)
+        time.sleep(3)
+    print(f"   -> {alertas_barbacena} alerta(s) de Barbacena enviado(s).")
 
     estado["notificados"] = sorted(notificados)
     salvar_estado(estado)
