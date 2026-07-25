@@ -129,5 +129,84 @@
     },
     "cnaes_secundarios": [],
     "palavras_chave": []
+  },
+  "51161852000100": {
+    "cnpj": "51161852000100",
+    "razao_social": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "nome_fantasia": "GP TREINAMENTOS",
+    "uf": "MG",
+    "municipio": "BARBACENA",
+    "cnae_principal": {
+      "codigo": 8599604,
+      "descricao": "Treinamento em desenvolvimento profissional e gerencial"
+    },
+    "cnaes_secundarios": [
+      {
+        "codigo": 6201501,
+        "descricao": "Desenvolvimento de programas de computador sob encomenda"
+      },
+      {
+        "codigo": 6204000,
+        "descricao": "Consultoria em tecnologia da informação"
+      },
+      {
+        "codigo": 6920602,
+        "descricao": "Atividades de consultoria e auditoria contábil e tributária"
+      }
+    ],
+    "palavras_chave": [
+      "auditoria",
+      "computador",
+      "consultoria",
+      "contábil",
+      "desenvolvimento",
+      "encomenda",
+      "gerencial",
+      "informação",
+      "profissional",
+      "programas",
+      "tecnologia",
+      "treinamento",
+      "tributária"
+    ]
+  },
+  "22692013000101": {
+    "cnpj": "22692013000101",
+    "razao_social": "FELIPE M. PRODUCOES LTDA",
+    "nome_fantasia": "FM PRODUCOES",
+    "uf": "MG",
+    "municipio": "BARBACENA",
+    "cnae_principal": {
+      "codigo": 9001902,
+      "descricao": "Produção musical"
+    },
+    "cnaes_secundarios": [
+      {
+        "codigo": 5223100,
+        "descricao": "Estacionamento de veículos"
+      },
+      {
+        "codigo": 7739003,
+        "descricao": "Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes"
+      },
+      {
+        "codigo": 9001906,
+        "descricao": "Atividades de sonorização e de iluminação"
+      }
+    ],
+    "palavras_chave": [
+      "aluguel",
+      "andaimes",
+      "coberturas",
+      "estacionamento",
+      "estruturas",
+      "iluminação",
+      "musical",
+      "palcos",
+      "produção",
+      "sonorização",
+      "temporário",
+      "veículos"
+    ]
   }
 }

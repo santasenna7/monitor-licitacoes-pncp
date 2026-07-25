@@ -41,4 +41,5 @@ jobs:
           git config user.email "actions@github.com"
           git add state.json
           git diff --staged --quiet || git commit -m "Atualiza state.json [skip ci]"
-          git push
+          git pull --rebase origin main || true
+          git push || echo "Aviso: push do state.json falhou, mas o monitor funcionou normalmente."
