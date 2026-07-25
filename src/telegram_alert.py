@@ -39,7 +39,7 @@ def enviar_telegram(mensagem: str, token: str = None, chat_id: str = None) -> bo
     return False
 
 
-def formatar_status(lista_empresas: list, novos: int) -> str:
+def formatar_status(lista_empresas: list, novos: int, total_scaneadas: int = 0) -> str:
     agora = datetime.now().strftime("%d/%m/%Y %H:%M")
     empresas_texto = "\n".join(f"  • {e}" for e in lista_empresas)
     if novos > 0:
@@ -47,12 +47,15 @@ def formatar_status(lista_empresas: list, novos: int) -> str:
     else:
         resultado = "Nenhuma licitacao nova encontrada nesta busca."
     return (
-        f"📊 <b>RELATORIO DO MONITOR</b>\n"
+        f"🟢 <b>MONITOR ATIVO</b>\n"
         f"{SEP}\n"
-        f"🕐 <i>{agora}</i>\n\n"
+        f"🕐 <i>{agora}</i>\n"
+        f"🔍 <b>{total_scaneadas}</b> licitacoes scaneadas em MG\n\n"
         f"🏢 <b>Empresas monitoradas:</b>\n"
         f"{empresas_texto}\n\n"
-        f"📋 <b>Resultado:</b> {resultado}"
+        f"📋 <b>Resultado:</b> {resultado}\n"
+        f"{SEP}\n"
+        f"⚡ Proxima verificacao em ~10 min"
     )
 
 

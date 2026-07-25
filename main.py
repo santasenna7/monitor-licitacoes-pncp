@@ -151,7 +151,8 @@ def main() -> int:
     salvar_estado(estado)
 
     nomes_empresas = [e.get("nome", e["cnpj"]) for e in empresas]
-    mensagem_status = formatar_status(nomes_empresas, novos_alertas)
+    total_scaneadas = len(todas_contratacoes)
+    mensagem_status = formatar_status(nomes_empresas, novos_alertas, total_scaneadas)
     enviar_telegram(mensagem_status)
 
     print(f"\nConcluido. {novos_alertas} novo(s) alerta(s) enviado(s). Status enviado no Telegram.")
