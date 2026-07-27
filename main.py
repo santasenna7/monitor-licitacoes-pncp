@@ -2,11 +2,13 @@ import sys
 import time
 import json
 import os
+from datetime import datetime
 
 from src.cnpj_lookup import consultar_cnpj
 from src.pncp_search import buscar_contratacoes_abertas, filtrar_por_palavras_chave, filtrar_por_prazo, dias_restantes, link_pncp
 from src.telegram_alert import enviar_telegram, formatar_alerta, formatar_alerta_cidade, formatar_status
 from src.state import carregar_estado, salvar_estado, id_contratacao
+from src.data_export import exportar_licitacoes, exportar_resumo
 
 CAMINHO_EMPRESAS = os.path.join(os.path.dirname(__file__), "config", "empresas.json")
 
@@ -49,6 +51,7 @@ def main() -> int:
     estado = carregar_estado()
     notificados = set(estado.get("notificados", []))
     novos_alertas = 0
+    stats_empresas = []
 
     for empresa_cfg in empresas:
         cnpj = empresa_cfg["cnpj"]
@@ -96,6 +99,8 @@ def main() -> int:
             encontrados.sort(key=lambda c: 0 if cidade_empresa in (c.get("unidadeOrgao", {}).get("municipioNome") or "").upper() else 1)
         print(f"   -> {len(encontrados)} licitacoes compatíveis (prazo minimo: {dias_minimo} dias).")
 
+        exportar_licitacoes(encontrados, razao_social, fonte="empresa")
+
         print(f"[4/4] Enviando alertas de licitacoes novas...")
         max_alertas = empresa_cfg.get("max_alertas_por_empresa", 5)
         alertas_enviados_empresa = 0
@@ -117,6 +122,14 @@ def main() -> int:
                 alertas_enviados_empresa += 1
             notificados.add(chave)
             time.sleep(3)
+
+        stats_empresas.append({
+            "data_execucao": datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "empresa": razao_social,
+            "cnpj": cnpj,
+            "licitacoes_encontradas": len(encontrados),
+            "alertas_enviados": alertas_enviados_empresa,
+        })
 
     print(f"\n[Busca extra] Buscando licitacoes com 'Barbacena' no objeto...")
     barbacena_termos = ["barbacena"]
@@ -147,8 +160,12 @@ def main() -> int:
         time.sleep(3)
     print(f"   -> {alertas_barbacena} alerta(s) de Barbacena enviado(s).")
 
+    exportar_licitacoes(encontrados_barbacena, "Barbacena (Busca por palavra-chave)", fonte="barbacena")
+
     estado["notificados"] = sorted(notificados)
     salvar_estado(estado)
+
+    exportar_resumo(stats_empresas)
 
     nomes_empresas = [e.get("nome", e["cnpj"]) for e in empresas]
     total_scaneadas = len(todas_contratacoes)

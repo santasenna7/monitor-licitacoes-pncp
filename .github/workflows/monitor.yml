@@ -35,11 +35,11 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python main.py
 
-      - name: Salvar estado
+      - name: Salvar estado e dados
         run: |
           git config user.name "monitor-licitacoes-bot"
           git config user.email "actions@github.com"
-          git add state.json
-          git diff --staged --quiet || git commit -m "Atualiza state.json [skip ci]"
+          git add state.json data/
+          git diff --staged --quiet || git commit -m "Atualiza state.json e dados [skip ci]"
           git pull --rebase origin main || true
-          git push || echo "Aviso: push do state.json falhou, mas o monitor funcionou normalmente."
+          git push || echo "Aviso: push falhou, mas o monitor funcionou normalmente."
