@@ -982,9 +982,9 @@
     "modalidade": "Pregão - Eletrônico",
     "orgao": "CONSORCIO INTERMUNICIPAL DE SAUDE ALTO DAS VERTENTES",
     "objeto": "Registro de Preços para Futura e Contratação de Empresa para a Prestação de Serviços de Veículos Aéreos Não Tripulados (VANT's/Drones) para Controle Vetorial do Aedes aegypti, em atendimento aos municípios da Unidade Regional de Saúde de Barbacena, por meio do Consórcio intermunicipal de Saúde Alto das Vertentes - CISALV, com utilização do saldo remanescente da Resolução SES/MG nº 9.035/2023 (CIB-SUS/MG).",
-    "valor_estimado": 616512.0,
+    "valor_estimado": "616512.0",
     "data_encerramento": "2026-08-05",
-    "dias_restantes": 9,
+    "dias_restantes": "9",
     "municipio": "Ressaquinha",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/02334933000140/2026/239"
@@ -997,11 +997,26 @@
     "modalidade": "Concorrência - Eletrônica",
     "orgao": "SECRETARIA DE ESTADO DE JUSTICA E SEGURANCA PUBLICA -SEJUSP",
     "objeto": "Contratação para a elaboração dos projetos executivos em plataforma BIM (Building Information Modeling) e a execução das obras destinadas à construção da Unidade Prisional de Barbacena/MG.",
-    "valor_estimado": 118188265.78,
+    "valor_estimado": "118188265.78",
     "data_encerramento": "2026-09-11",
-    "dias_restantes": 46,
+    "dias_restantes": "46",
     "municipio": "Belo Horizonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/05487631000109/2026/79"
+  },
+  {
+    "data_execucao": "2026-07-27 18:17",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18334276000171-1-000071/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE BOM JESUS DO GALHO",
+    "objeto": "Contratação de empresa especializada para a execução, em regime de empreitada por preços unitários pelo valor global, de obras para reforma e adequação do Centro de Especialidades Bom Jesus do Galho-MG, com recursos do Acordo Judicial para reparação integral e definitiva relativa ao rompimento da barragem de Fundão – Programa Especial de Saúde do Rio Doce.",
+    "valor_estimado": "769196.13",
+    "data_encerramento": "2026-08-12",
+    "dias_restantes": "16",
+    "municipio": "Bom Jesus do Galho",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18334276000171/2026/71"
   }
 ]
