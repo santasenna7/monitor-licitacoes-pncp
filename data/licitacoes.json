@@ -1288,5 +1288,50 @@
     "municipio": "Andrelândia",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18682930000138/2026/80"
+  },
+  {
+    "data_execucao": "2026-07-28 20:40",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18593111000114-1-000043/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE ABADIA DOS DOURADOS",
+    "objeto": "[LICITANET] - Aquisição de plantadeiras adubadoras 04 (quatro) linhas, novas de fábrica, para atender a Secretaria Municipal de Agronegócio e Meio Ambiente, conforme Termo de Referência. Fonte de Recurso: Termo de Convênio/Convênio de Saída nº. 1231002330/2025/SEAPA-MG.",
+    "valor_estimado": "319500.0",
+    "data_encerramento": "2026-08-04",
+    "dias_restantes": "7",
+    "municipio": "Abadia dos Dourados",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18593111000114/2026/43"
+  },
+  {
+    "data_execucao": "2026-07-28 20:40",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18188235000114-1-000056/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE SOLEDADE DE MINAS",
+    "objeto": "Objeto: 2ª chamada para contratação de empresa para prestação de serviços de reforma do Centro Municipal de atividades aquáticas Lino Fernandes Ensá no Município de Soledade de Minas-MG, conforme projeto básico, memorial descritivo, planilhas orçamentarias, memórias de cálculos de quantidades, cronograma físico-financeiro e demais anexos desse edital, cuja origem dos recursos é de natureza de emenda de transferência especial junto a SEGOV, sob as indicações de nº: 1404712024 e 1444992024,",
+    "valor_estimado": "99603.68",
+    "data_encerramento": "2026-08-12",
+    "dias_restantes": "15",
+    "municipio": "Soledade de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18188235000114/2026/56"
+  },
+  {
+    "data_execucao": "2026-07-28 20:40",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19770288000101-1-000059/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE ALVARENGA",
+    "objeto": "AQUISIÇÃO DE PROJETOR MULTIMÍDIA (DATA SHOW) DESTINADO À SECRETARIA MUNICIPAL DE ASSISTÊNCIA SOCIAL, COM RECURSOS DO PROGRAMA/PROJETO DE ASSISTÊNCIA SOCIAL – SEDESE, PLANO Nº 4251001119/2022 – SIAFI Nº 9332097.",
+    "valor_estimado": "3914.82",
+    "data_encerramento": "2026-08-03",
+    "dias_restantes": "6",
+    "municipio": "Alvarenga",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19770288000101/2026/59"
   }
 ]
