@@ -1333,5 +1333,20 @@
     "municipio": "Alvarenga",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/19770288000101/2026/59"
+  },
+  {
+    "data_execucao": "2026-07-29 00:10",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "17217985000104-1-000171/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+    "objeto": "Dispensa Eletrônica, a fim de adquirir, à pedido da FARMACIA-SECALM, \"de reagentes de laboratório (Solução Gema de Ovo com e sem Telurito, Caldo MRS, Extrato de Malte, Agar Baird Parker) para atendimento das aulas práticas do semestre 2026/2\".",
+    "valor_estimado": "4723.83",
+    "data_encerramento": "2026-08-03",
+    "dias_restantes": "5",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17217985000104/2026/171"
   }
 ]
