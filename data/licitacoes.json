@@ -3898,5 +3898,50 @@
     "municipio": "Belo Horizonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16695025000197/2026/691"
+  },
+  {
+    "data_execucao": "2026-08-08 04:21",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18128207000101-1-000236/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE UBA",
+    "objeto": "Aquisicao de mobiliario tecnico  cabines de atendimento com divisorias  estilo call center  nas configuracoes completas e complementares   destinado a reestruturacao fisica e a retomada plena das estacoes de atendimento presencial ao publico na Farmacia Municipal.",
+    "valor_estimado": "6909.5",
+    "data_encerramento": "2026-08-13",
+    "dias_restantes": "5",
+    "municipio": "Ubá",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18128207000101/2026/236"
+  },
+  {
+    "data_execucao": "2026-08-08 04:21",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18295303000144-1-000250/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE MARIANA",
+    "objeto": "CONTRATACAO DE EMPRESA PARA EXECUCAO DA OBRA DE RESTAURACAO DA IGREJA MATRIZ DO BOM JESUS DO MONTE  NO DISTRITO DE FURQUIM - MARIANA/MG  COM RECURSOS DO NOVO PAC A PEDIDO DA SECRETARIA DE OBRAS.",
+    "valor_estimado": "2931533.79",
+    "data_encerramento": "2026-09-14",
+    "dias_restantes": "37",
+    "municipio": "Mariana",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18295303000144/2026/250"
+  },
+  {
+    "data_execucao": "2026-08-08 04:21",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "07480746000199-1-000011/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMARA MUNICIPAL DE PARAGUACU",
+    "objeto": "Contratação de empresa especializada para licenciamento de uso de Sistema Integrado de Gestão do Processo Legislativo Eletrônico, em ambiente web/nuvem, no modelo Software as a Service - SaaS, compreendendo a disponibilização de plataforma web/mobile, implantação, parametrização, migração/conversão de dados do sistema anterior, treinamento de usuários, suporte técnico, manutenção, hospedagem e atualizações legais, regimentais e tecnológicas, conforme as necessidades da Câmara Municipal de Paraguaçu/MG.",
+    "valor_estimado": "47000.0",
+    "data_encerramento": "2026-08-13",
+    "dias_restantes": "5",
+    "municipio": "Paraguaçu",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/07480746000199/2026/11"
   }
 ]
