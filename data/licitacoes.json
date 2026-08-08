@@ -3943,5 +3943,20 @@
     "municipio": "Paraguaçu",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/07480746000199/2026/11"
+  },
+  {
+    "data_execucao": "2026-08-08 17:07",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "00348003000110-1-000682/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA",
+    "objeto": "Aquisição de materiais/equipamentos de EPI, específicos para execução das atividades de pesquisa (P&D) no Campo Experimental José Henrique Bruschi",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-27",
+    "dias_restantes": "19",
+    "municipio": "Juiz de Fora",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/00348003000110/2026/682"
   }
 ]
