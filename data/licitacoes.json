@@ -4093,5 +4093,50 @@
     "municipio": "Ponto dos Volantes",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/01613377000189/2026/23"
+  },
+  {
+    "data_execucao": "2026-08-10 17:42",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "17503475000101-1-000136/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "FUNDACAO EZEQUIEL DIAS",
+    "objeto": "MEDICAMENTOS - DIMETILSULFÓXIDO, BEVACIZUMABE E FLUORESCEINA",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-25",
+    "dias_restantes": "15",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17503475000101/2026/136"
+  },
+  {
+    "data_execucao": "2026-08-10 17:42",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18188235000114-1-000057/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE SOLEDADE DE MINAS",
+    "objeto": "“CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOSCONTINUADOS DE MANUTENÇÃO, SUPORTE TÉCNICO ESPECIALIZADO, CONSULTORIA EASSESSORIA ESPECIALIZADAS EM SISTEMAS INFORMATIZADOS DE PROPRIEDADE DOMUNICÍPIO, EM CARÁTER DEFINITIVO, DESTINADOS ÀS ÁREAS DE CONTROLADORIA, RECURSOSHUMANOS E TRIBUTAÇÃO DA PREFEITURA MUNICIPAL DE SOLEDADE DE MINASMG,COMPREENDENDO SERVIÇOS DE MANUTENÇÃO CORRETIVA, ADAPTATIVA, EVOLUTIVA EPREVENTIVA, ATENDIMENTO TÉCNICO LOCAL EOU REMOTO, ATUALIZAÇÕES TECNOLÓGICAS,IMPLEMENTAÇÃO E ADEQUAÇÃO ÀS ALTERAÇÕES LEAIS E NORMATIVAS, INCLUSIVE ÀSEXIGÊNCIAS DO E-SOCIAL E DO SIAFIC, VISANDO À CONTINUIDADE, EFICIÊNCIA, SEGURANÇA EPLENO FUNCIONAMENTO DAS SOLUÇÕES UTILIZADAS PELA ADMINISTRAÇÃO MUNICIPAL, NOSTERMOS DA LEI FEDERAL No 14.1332021”.",
+    "valor_estimado": "349678.43",
+    "data_encerramento": "2026-08-17",
+    "dias_restantes": "7",
+    "municipio": "Soledade de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18188235000114/2026/57"
+  },
+  {
+    "data_execucao": "2026-08-10 17:42",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17754136000190-1-000164/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE DIAMANTINA",
+    "objeto": "Abertura de processo licitatorio destinado a aquisicao de insumos especificos para o atendimento das necessidades do setor de Zoonoses do municipio Importante destacar que os itens descritos neste processo iram contribuir diretamente na execucao dos servicos por parte dos profissionais Recurso Estadual Resolucao 10116",
+    "valor_estimado": "6913.01",
+    "data_encerramento": "2026-08-20",
+    "dias_restantes": "10",
+    "municipio": "Diamantina",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17754136000190/2026/164"
   }
 ]
