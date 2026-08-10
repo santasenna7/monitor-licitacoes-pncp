@@ -4138,5 +4138,35 @@
     "municipio": "Diamantina",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17754136000190/2026/164"
+  },
+  {
+    "data_execucao": "2026-08-10 20:09",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18684217000123-1-000044/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE BOM JARDIM DE MINAS",
+    "objeto": "[Portal de Compras Públicas] - Registro de preços, pelo período de 12 meses, para eventual e futura aquisição de medicamentos destinados ao atendimento das demandas do Hospital Municipal Dr. Armando Ribeiro, visando garantir a continuidade da assistência farmacêutica, dos atendimentos de urgência, emergência, internações e demais procedimentos realizados pela unidade hospitalar.",
+    "valor_estimado": "1542704.5",
+    "data_encerramento": "2026-08-24",
+    "dias_restantes": "14",
+    "municipio": "Bom Jardim de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18684217000123/2026/44"
+  },
+  {
+    "data_execucao": "2026-08-10 20:09",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19875046000182-1-000106/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE CORONEL FABRICIANO",
+    "objeto": "Aquisição de coletes, camisas, calças e calçados, para identificação e proteção dos servidores das unidades públicas da Secretaria de Governança de Assistência Social, tendo como fonte de receita, Transferência de Recursos do Fundo Nacional de Assistência Social – FNAS e Recursos não Vinculados de Impostos.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-20",
+    "dias_restantes": "10",
+    "municipio": "Coronel Fabriciano",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19875046000182/2026/106"
   }
 ]
