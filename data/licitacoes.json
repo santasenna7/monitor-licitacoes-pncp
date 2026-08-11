@@ -4423,5 +4423,20 @@
     "municipio": "Belo Horizonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16866394000103/2026/65"
+  },
+  {
+    "data_execucao": "2026-08-11 20:28",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "16695025000197-1-000710/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+    "objeto": "AQUISIÇÃO DE EQUIPAMENTOS COM RECURSOS DO CONVÊNIO TEÓFILO OTONI TRÂNSITO",
+    "valor_estimado": "21353.43",
+    "data_encerramento": "2026-08-18",
+    "dias_restantes": "7",
+    "municipio": "Teófilo Otoni",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/16695025000197/2026/710"
   }
 ]
