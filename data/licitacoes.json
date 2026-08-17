@@ -5653,5 +5653,35 @@
     "municipio": "Vermelho Novo",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/01620744000171/2026/52"
+  },
+  {
+    "data_execucao": "2026-08-17 10:10",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "00444232000139-1-000934/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "INDUSTRIA DE MATERIAL BELICO DO BRASIL IMBEL",
+    "objeto": "Contratação de empresa especializada para execução de serviços técnicos de engenharia destinados à recuperação do sistema de proteção anticorrosiva dos condutos forçados da Pequena Central Hidrelétrica REPI – PCH REPI",
+    "valor_estimado": "909840.12",
+    "data_encerramento": "2026-09-09",
+    "dias_restantes": "23",
+    "municipio": "Itajubá",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/00444232000139/2026/934"
+  },
+  {
+    "data_execucao": "2026-08-17 10:10",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "21078563000172-1-000139/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE TUMIRITINGA",
+    "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL AQUISIÇÃO DE MEDICAMENTOS INJETÁVEIS PARA ATENDER A SECRETARIA DE SAÚDE DO MUNICÍPIO DE TUMIRITINGA-MG.",
+    "valor_estimado": "1360638.5",
+    "data_encerramento": "2026-08-25",
+    "dias_restantes": "8",
+    "municipio": "Tumiritinga",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/21078563000172/2026/139"
   }
 ]
