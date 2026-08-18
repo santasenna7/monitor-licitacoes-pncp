@@ -6058,5 +6058,35 @@
     "municipio": "São Sebastião do Paraíso",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18241349000180/2026/136"
+  },
+  {
+    "data_execucao": "2026-08-18 19:40",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "05461142000170-1-000092/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "SECRETARIA DE ESTADO DE PLANEJAMENTO E GESTAO",
+    "objeto": "COMPRA CENTRAL - MEDICAMENTOS VI",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-31",
+    "dias_restantes": "13",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/05461142000170/2026/92"
+  },
+  {
+    "data_execucao": "2026-08-18 19:40",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18309724000187-1-000119/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE ITAUNA",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS DE PAVIMENTAÇÃO POLIÉDRICA DA IAN-090, TRECHO DA COMUNIDADE DA BAGAGINHA, EM ITAÚNA-MG, ATRAVÉS DE REPASSE DE RECURSOS DO GOVERNO FEDERAL Nº 939838/2022.",
+    "valor_estimado": "503015.83",
+    "data_encerramento": "2026-09-04",
+    "dias_restantes": "17",
+    "municipio": "Itaúna",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18309724000187/2026/119"
   }
 ]
