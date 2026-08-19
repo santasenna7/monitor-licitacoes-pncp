@@ -6403,5 +6403,35 @@
     "municipio": "Caputira",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18385138000111/2026/29"
+  },
+  {
+    "data_execucao": "2026-08-19 21:03",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "21040001000130-1-000154/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "UNIVERSIDADE FEDERAL DE ITAJUBA",
+    "objeto": "Aquisição de Equipamentos de Proteção Individual (EPIs) para docentes e técnicos administrativos da Universidade Federal de Itajubá (UNIFEI",
+    "valor_estimado": "58923.09",
+    "data_encerramento": "2026-08-25",
+    "dias_restantes": "6",
+    "municipio": "Itajubá",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/21040001000130/2026/154"
+  },
+  {
+    "data_execucao": "2026-08-19 21:03",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17894064000186-1-000041/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE DELFINOPOLIS",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA EM SERVIÇOS DE ENGENHARIA DESTINADA À EXECUÇÃO DE OBRAS DE CALÇAMENTO E SINALIZAÇÃO DA ESTRADA RURAL DA SERRA DA GURITA, NO MUNICÍPIO DE DELFINÓPOLIS, REFERENTE AO 2º TRECHO, EM CONFORMIDADE COM O ADITIVO DO CONVÊNIO Nº 1231000636/2024, FIRMADO ENTRE A SECRETARIA DE ESTADO DE AGRICULTURA, PECUÁRIA E ABASTECIMENTO - SEAPA E A PREFEITURA MUNICIPAL DE DELFINÓPOLIS. A CONTRATAÇÃO ABRANGERÁ O FORNECIMENTO INTEGRAL DE MÃO DE OBRA E MATERIAIS NECESSÁRIOS, SENDO OS RECURSOS FINANCEIROS PROVENIENTES DA CONTA Nº 22998-9, AGÊNCIA 0624-6, BANCO DO BRASIL.",
+    "valor_estimado": "53539.7",
+    "data_encerramento": "2026-09-04",
+    "dias_restantes": "16",
+    "municipio": "Delfinópolis",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17894064000186/2026/41"
   }
 ]
