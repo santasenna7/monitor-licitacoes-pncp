@@ -6628,5 +6628,35 @@
     "municipio": "Carvalhos",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18194217000145/2026/28"
+  },
+  {
+    "data_execucao": "2026-08-20 14:23",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "38515573000120-1-000132/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE SANTANA DO PARAISO",
+    "objeto": "Contratação emergencial de estabelecimento hospitalar especializado para prestação de serviços de internação psiquiátrica destinados à paciente adolescente, incluindo disponibilização de leito, assistência médica especializada, enfermagem, acompanhamento multiprofissional, vigilância contínua, medicamentos, materiais, alimentação e demais serviços assistenciais necessários à adequada permanência hospitalar, conforme indicação médica e estrutura disponibilizada pela unidade contratada., em cumprimento à demanda judicial nº 1007430-72.2026.8.13.0313.",
+    "valor_estimado": "62480.0",
+    "data_encerramento": "2026-08-26",
+    "dias_restantes": "6",
+    "municipio": "Santana do Paraíso",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/38515573000120/2026/132"
+  },
+  {
+    "data_execucao": "2026-08-20 14:23",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18188250000162-1-000062/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE CRISTINA",
+    "objeto": "Aquisição 01(um) veículo novo, sem uso anterior, com recurso oriundo da Resolução SES nº 11.042-2026, em atendimento a solicitação da Secretaria Municipal de Saúde. FICHA: 358 e 389FONTE: 500/102 e 621",
+    "valor_estimado": "98652.12",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "12",
+    "municipio": "Cristina",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18188250000162/2026/62"
   }
 ]
