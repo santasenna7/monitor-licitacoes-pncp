@@ -6658,5 +6658,35 @@
     "municipio": "Cristina",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18188250000162/2026/62"
+  },
+  {
+    "data_execucao": "2026-08-20 17:18",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "05461142000170-1-000106/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "SECRETARIA DE ESTADO DE PLANEJAMENTO E GESTAO",
+    "objeto": "COMPRA CENTRAL - ATENDIMENTO JUDICIAL - MEDICAMENTOS V",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-25",
+    "dias_restantes": "5",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/05461142000170/2026/106"
+  },
+  {
+    "data_execucao": "2026-08-20 17:18",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18650945000114-1-000035/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE MONTE AZUL",
+    "objeto": "[Portal de Compras Públicas] - AQUISIÇÃO DE MOBILIÁRIO E EQUIPAMENTO ESCOLAR, DESTINADOS AO ATENDIMENTO DE ALUNOS MATRICULADOS EM ESCOLAS DA REDE MUNICIPAL DE ENSINO, CONFORME DESCRITO NO PLANO DE APLICAÇÃO DE RECURSOS - “PROGRAMA FORTALECIMENTO DAS ESCOLAS” CONFORME CONVÊNIO DE SAÍDA Nº 1261004174/2026/SEE.",
+    "valor_estimado": "198331.62",
+    "data_encerramento": "2026-08-26",
+    "dias_restantes": "6",
+    "municipio": "Monte Azul",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18650945000114/2026/35"
   }
 ]
