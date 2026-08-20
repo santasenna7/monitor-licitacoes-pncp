@@ -6778,5 +6778,50 @@
     "municipio": "Belo Horizonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/26461699000180/2026/263"
+  },
+  {
+    "data_execucao": "2026-08-20 20:55",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "18659334000137-1-000488/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE CAMPO BELO",
+    "objeto": "Contratação direta por DISPENSA DE LICITAÇÃO, cujo objeto Luva de vaqueta , para atender as necessidades das Secretaria Municipal de Infraestrutura, Secretaria Municipal de Educação , Secretaria Municipal de Meio Ambiente, Secretaria Municipal Assistência Social e Secretaria Municipal Esporte, Cultura e Turismo, conforme condições, exigências estabelecidas neste instrumento e Lei nº 14.133 de abril de 2021.",
+    "valor_estimado": "4020.0",
+    "data_encerramento": "2026-08-27",
+    "dias_restantes": "7",
+    "municipio": "Campo Belo",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18659334000137/2026/488"
+  },
+  {
+    "data_execucao": "2026-08-20 20:55",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "18659334000137-1-000489/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE CAMPO BELO",
+    "objeto": "Contratação direta por DISPENSA DE LICITAÇÃO, cujo objeto Luva de vaqueta , para atender as necessidades das Secretaria Municipal de Infraestrutura, Secretaria Municipal de Educação , Secretaria Municipal de Meio Ambiente, Secretaria Municipal Assistência Social e Secretaria Municipal Esporte, Cultura e Turismo, conforme condições, exigências estabelecidas neste instrumento e Lei nº 14.133 de abril de 2021.",
+    "valor_estimado": "4020.0",
+    "data_encerramento": "2026-08-27",
+    "dias_restantes": "7",
+    "municipio": "Campo Belo",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18659334000137/2026/489"
+  },
+  {
+    "data_execucao": "2026-08-20 20:55",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19875046000182-1-000110/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE CORONEL FABRICIANO",
+    "objeto": "Contratação de empresa, por menor preço global e sob regime de empreitada global, com medições unitárias, com fornecimento de mão-de-obra, materiais e equipamentos, para execução de serviços destinados à expansão, modernização e melhoria da infraestrutura de iluminação pública do Município de Coronel Fabriciano/MG, em atendimento à Secretaria de Governança de Obras e Serviços Urbanos, tendo como fonte receita, Recursos da Contribuição para o Custeio do serviço de Iluminação Pública - COSIP.",
+    "valor_estimado": "9897509.18",
+    "data_encerramento": "2026-09-10",
+    "dias_restantes": "21",
+    "municipio": "Coronel Fabriciano",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19875046000182/2026/110"
   }
 ]
