@@ -6853,5 +6853,20 @@
     "municipio": "Montes Claros",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/22675359000100/2026/56"
+  },
+  {
+    "data_execucao": "2026-08-21 11:56",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "10648539000105-1-000165/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO SUL DE MINAS GERAIS",
+    "objeto": "Realização do Pregão SRP 90513/2026 (Contratação 158137-194/2026) para a eventual Aquisição de medicamentos para Enfermaria.",
+    "valor_estimado": "23604.9",
+    "data_encerramento": "2026-08-28",
+    "dias_restantes": "7",
+    "municipio": "Pouso Alegre",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/10648539000105/2026/165"
   }
 ]
