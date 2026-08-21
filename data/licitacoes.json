@@ -7108,5 +7108,50 @@
     "municipio": "Andradas",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17884412000134/2026/1005"
+  },
+  {
+    "data_execucao": "2026-08-21 19:20",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18241745000108-1-000074/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE PASSOS",
+    "objeto": "Abertura de processo licitatório para contratação de empresa especializada para fornecimento de equipamentos, materiais e mão de obra para execução de Travessia em aduelas, na estrada principal do Vira, localizada na zona rural do Município de Passos/Mg. (A obra será executada com recurso advindo da Secretaria Nacional de Proteção e Defesa Civil)",
+    "valor_estimado": "336596.33",
+    "data_encerramento": "2026-09-22",
+    "dias_restantes": "32",
+    "municipio": "Passos",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18241745000108/2026/74"
+  },
+  {
+    "data_execucao": "2026-08-21 19:20",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "01613208000149-1-000050/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE NAQUE",
+    "objeto": "Contratação de empresa especializada em assessoria e consultoria técnica ao Conselho Municipal de Saúde",
+    "valor_estimado": "48000.0",
+    "data_encerramento": "2026-08-28",
+    "dias_restantes": "7",
+    "municipio": "Naque",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/01613208000149/2026/50"
+  },
+  {
+    "data_execucao": "2026-08-21 19:20",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "01539789000116-1-000007/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMARA MUNICIPAL DE ALTO RIO DOCE",
+    "objeto": "Registro de preços para futura e eventual contratação de empresa\nespecializada para prestação de serviços técnicos de engenharia e\narquitetura, incluindo consultoria, confecção e assessoramento na\nelaboração e execução de projetos, medições, controle de\nmateriais , prazos e orientação técnica das obras previstas no\nexerício vigente",
+    "valor_estimado": "56692.0",
+    "data_encerramento": "2026-09-03",
+    "dias_restantes": "13",
+    "municipio": "Alto Rio Doce",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/01539789000116/2026/7"
   }
 ]
