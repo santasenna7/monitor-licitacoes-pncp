@@ -7693,5 +7693,35 @@
     "municipio": "Carangola",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/04015843000112/2026/14"
+  },
+  {
+    "data_execucao": "2026-08-25 22:47",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "19843929000100-1-000599/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS",
+    "objeto": "AQUISIÇÃO DE MEDICAMENTOS",
+    "valor_estimado": "16547.1",
+    "data_encerramento": "2026-08-31",
+    "dias_restantes": "6",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19843929000100/2026/599"
+  },
+  {
+    "data_execucao": "2026-08-25 22:47",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19843929000100-1-000600/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS",
+    "objeto": "Contratação do serviço de ministração do curso de cardiotocografia para a MATERNIDADE ODETE VALADARES",
+    "valor_estimado": "17261.66",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "7",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19843929000100/2026/600"
   }
 ]
