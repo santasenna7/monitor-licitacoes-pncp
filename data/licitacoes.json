@@ -7678,5 +7678,20 @@
     "municipio": "São Sebastião do Paraíso",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/21213865000106/2026/15"
+  },
+  {
+    "data_execucao": "2026-08-25 20:14",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "04015843000112-1-000014/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "INSTITUTO DE PREVIDENCIA DOS SERVIDORES PUBLICOS DO MUNICIPIO DE CARANGOLA/MG -IPESC",
+    "objeto": "Contratação de empresa especializada para fornecimento de licença de uso de sistema integrado de gestão previdenciária para Regime Próprio de Previdência Social – RPPS, em ambiente web, destinado à gestão administrativa, previdenciária, financeira e operacional do Instituto, incluindo os serviços de implantação, conversão e migração de dados, parametrização, treinamento de usuários, suporte técnico, manutenção corretiva, preventiva e evolutiva, atualização legal e hospedagem da solução. A solução deverá contemplar, de forma integrada, módulos de folha de pagamento previdenciária, concessão e simulação de benefícios, protocolo e gestão de processos administrativos, perícia médica, portal da transparência, ferramenta de relatórios gerenciais e indicadores previdenciários, além de aplicativo mobile para acesso dos segurados. O sistema deverá atender às exigências legais e normativas aplicáveis aos Regimes Próprios de Previdência Social, incluindo integração com eSocial, atendimento às normas do Tribunal de Contas do Estado de Minas Gerais – TCE/MG, Ministério da Previdência, Lei Geral de Proteção de Dados – LGPD e demais obrigações acessórias vigentes.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-09-08",
+    "dias_restantes": "14",
+    "municipio": "Carangola",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/04015843000112/2026/14"
   }
 ]
