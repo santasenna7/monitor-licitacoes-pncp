@@ -7333,5 +7333,50 @@
     "municipio": "Viçosa",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18132449000179/2026/121"
+  },
+  {
+    "data_execucao": "2026-08-25 11:06",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17813026000151-1-000034/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "CONSORCIO INTERMUNICIPAL DE SAUDE PARA GERENCIAMENTO DA REDE DE URGENCIA E EMERGENCIA DA MACRO SUDESTE",
+    "objeto": "[Portal de Compras Públicas] - CONTRATAÇÃO de EMPRESA ESPECIALIZADA para fornecimento, instalação, configuração, integração, testes, comissionamento, treinamento básico, entrega técnica assistida, garantia técnica operacional e suporte corretivo de SISTEMA COMPLETO de SEGURANÇA ELETRÔNICA, contemplando CFTV IP, VÍDEO PORTEIRO ELETRÔNICO, SISTEMA de ALARME MICROPROCESSADO e INFRAESTRUTURA EXTERNA, destinados a 6ª CEOA/HANGAR, no âmbito da parceria institucional firmada entre o CBMMG, o Consórcio Intermunicipal de Saúde para Gerenciamento da Rede de Urgência e Emergência da Macro Sudeste e Leste do Sul (CISDESTE) e o Consórcio Intermunicipal de Saúde da Rede de Urgência Centro Sul (CISRU Centro Sul), conforme condições, quantidades e exigências estabelecidas neste Edital e seus anexos.",
+    "valor_estimado": "42608.0",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "7",
+    "municipio": "Juiz de Fora",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17813026000151/2026/34"
+  },
+  {
+    "data_execucao": "2026-08-25 11:06",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18239038000187-1-000042/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "EMPRESA DE INFORMATICA E INFORMACAO DO MUN.BHTE S/",
+    "objeto": "Promover o registro de preço por 12 (doze) meses para aquisição de solução especializada e integrada de segurança de rede do tipo Next Generation Firewall (NGFW) com suporte a funcionalidades de SD-WAN, incluindo fornecimento de equipamentos, licenças de software, plataforma de gerenciamento centralizado, serviços de implantação, suporte técnico, treinamento e garantia de 60 meses, conforme especificações detalhadas no Termo de Referência e anexos deste edital.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-31",
+    "dias_restantes": "6",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18239038000187/2026/42"
+  },
+  {
+    "data_execucao": "2026-08-25 11:06",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18187823000133-1-000025/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE NOVA RESENDE",
+    "objeto": "Aquisição de equipamentos de som e imagem, destinados ao apoio e fortalecimento das atividades culturais do Município de Nova Resende/MG, incluindo eventos, apresentações, oficinas, projetos e demais ações culturais, com recursos provenientes de Transferência Especial Estadual, conforme Proposta nº 004261/2026, Plano nº 005095/2026 e Instrumento nº 1271004670/2026, de acordo com as especificações e quantitativos estabelecidos no Termo de Referência.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-08-31",
+    "dias_restantes": "6",
+    "municipio": "Nova Resende",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18187823000133/2026/25"
   }
 ]
