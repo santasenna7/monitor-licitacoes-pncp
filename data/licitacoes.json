@@ -7528,5 +7528,50 @@
     "municipio": "Bom Jesus da Penha",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18187815000197/2026/101"
+  },
+  {
+    "data_execucao": "2026-08-25 13:12",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18402552000191-1-000042/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE SAO JOSE DO GOIABAL",
+    "objeto": "Aquisição de equipamentos e odontológicos, mediante utilização de recursos oriundos da Emenda Parlamentar n° 14110004, vinculada à Proposta n° 13681931000125008/2025/INVESTSUS-FMS, para atender as necessidades da Secretaria Municipal de Saúde.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-09-21",
+    "dias_restantes": "27",
+    "municipio": "São José do Goiabal",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18402552000191/2026/42"
+  },
+  {
+    "data_execucao": "2026-08-25 13:12",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "02430067000191-1-000044/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "CAMARA MUNICIPAL DE CONCEICAO DO MATO DENTRO - MG",
+    "objeto": "Contratação de empresa especializada para prestação de serviços de digitalização de documentos físicos, preparação física do acervo (higienização, remoção de grampos, clipes e fitas adesivas), digitalização colorida com Reconhecimento Ótico de Caracteres (OCR), indexação, catalogação e nomeação padronizada de arquivos, bem como fornecimento de licença de uso perpetua de sistema de Gerenciamento Eletrônico de Documentos (GED) com instalação e configuração em servidor próprio da contratante, treinamento dos servidores e suporte técnico, para atendimento as necessidades da Câmara Municipal de Conceição do Mato Dentro/MG.",
+    "valor_estimado": "219360.0",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "7",
+    "municipio": "Conceição do Mato Dentro",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/02430067000191/2026/44"
+  },
+  {
+    "data_execucao": "2026-08-25 13:12",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "01612509000158-1-000165/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE SARZEDO",
+    "objeto": "Contratação de empresa especializada para fornecimento, material e mão de obra, para instalação de cortinas hospitalares, destinadas ao Hospital de Pequeno Porte 272 Joias de Sarzedo. Referente recursos guiados pelo Comite Gestor DMC - Acordo Judicial ACP Nº 0010261-67.2019.5.03.0028. Com exclusividade de disputa e contratação de MEI, ME E/OU EPPS, sediadas preferencialmente regionalmente com limite de 50km de distância do município de Sarzedo (tendo como referência a Secretaria Municipal De Saúde)",
+    "valor_estimado": "27027.49",
+    "data_encerramento": "2026-09-03",
+    "dias_restantes": "9",
+    "municipio": "Sarzedo",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/01612509000158/2026/165"
   }
 ]
