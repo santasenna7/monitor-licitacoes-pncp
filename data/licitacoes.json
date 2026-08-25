@@ -7648,5 +7648,35 @@
     "municipio": "Ponte Nova",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/23802507000164/2026/25"
+  },
+  {
+    "data_execucao": "2026-08-25 19:07",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "21213865000106-1-000014/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CONSORCIO INTERMUNICIPAL PARA O DESENVOLVIMENTO SUSTENTAVEL DA REGIAO DE SAO SEBASTIAO DO PARAISO-MG",
+    "objeto": "O objetivo da presente Licitação é a contratação de empresa visando a aquisição de Material de Equipamento de Proteção Individual (EPI) para atender os colaboradores do Consórcio Intermunicipal para o Desenvolvimento Sustentável da Região de São Sebastião do Paraíso/MG – CIDASSP",
+    "valor_estimado": "2670.59",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "7",
+    "municipio": "São Sebastião do Paraíso",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/21213865000106/2026/14"
+  },
+  {
+    "data_execucao": "2026-08-25 19:07",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "21213865000106-1-000015/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CONSORCIO INTERMUNICIPAL PARA O DESENVOLVIMENTO SUSTENTAVEL DA REGIAO DE SAO SEBASTIAO DO PARAISO-MG",
+    "objeto": "O objetivo da presente Licitação é a contratação de empresa visando a aquisição de Material de Equipamento de Proteção Individual (EPI) para atender os colaboradores do Consórcio Intermunicipal para o Desenvolvimento Sustentável da Região de São Sebastião do Paraíso/MG  CIDASSP",
+    "valor_estimado": "2670.59",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "7",
+    "municipio": "São Sebastião do Paraíso",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/21213865000106/2026/15"
   }
 ]
