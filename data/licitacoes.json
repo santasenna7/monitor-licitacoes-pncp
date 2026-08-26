@@ -7738,5 +7738,20 @@
     "municipio": "Pompéu",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18296681000142/2026/188"
+  },
+  {
+    "data_execucao": "2026-08-26 11:20",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19110162000100-1-000235/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "FUNDACAO HOSPITALAR DO MUNICIPIO DE VARGINHA FHOMUV",
+    "objeto": "[Portal de Compras Públicas] - CONTRATAÇÃO DE SERVIÇOS DE LOCAÇÃO DE SOFTWARE DE GERENCIAMENTO HOSPITALAR PÚBLICO, EM REGIME DE SAAS (SOFTWARE AS A SERVICE), INCLUINDO FUNCIONALIDADES DESTINADAS À GESTÃO DO ATENDIMENTO ONCOLÓGICO, IMPLANTAÇÃO, IMPORTAÇÃO DE DADOS, TREINAMENTO E MANUTENÇÃO",
+    "valor_estimado": "9207020.18",
+    "data_encerramento": "2026-09-01",
+    "dias_restantes": "6",
+    "municipio": "Varginha",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19110162000100/2026/235"
   }
 ]
