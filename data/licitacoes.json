@@ -7753,5 +7753,35 @@
     "municipio": "Varginha",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/19110162000100/2026/235"
+  },
+  {
+    "data_execucao": "2026-08-26 11:53",
+    "fonte": "empresa",
+    "empresa": "DDA - DEDETIZADORES ASSOCIADOS",
+    "numero_pncp": "18602011000107-1-000200/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE PATOS DE MINAS",
+    "objeto": "[Publicenter] - Aquisição parcelada de produtos químicos utilizados no controle de pragas urbanas para consumo nos diversos setores da Secretaria Municipal de Saúde de Patos de Minas, através do Sistema de Registro de Preços.",
+    "valor_estimado": "524287.3",
+    "data_encerramento": "2026-09-02",
+    "dias_restantes": "7",
+    "municipio": "Patos de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18602011000107/2026/200"
+  },
+  {
+    "data_execucao": "2026-08-26 11:53",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18245167000188-1-000126/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE TRES PONTAS",
+    "objeto": "AQUISIÇÃO DE ESTANTES, DESTINADAS À BIBLIOTECA MUNICIPAL CELSO BRANT, VISANDO ATENDER ÀS NECESSIDADES DE ORGANIZAÇÃO, ARMAZENAMENTO, CONSERVAÇÃO E ADEQUADA DISPONIBILIZAÇÃO DO ACERVO BIBLIOGRÁFICO, COM RECURSOS PROVENIENTES DO CONVÊNIO ESTADUAL Nº 1271002578/2022.",
+    "valor_estimado": "8898.0",
+    "data_encerramento": "2026-08-31",
+    "dias_restantes": "5",
+    "municipio": "Três Pontas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18245167000188/2026/126"
   }
 ]
