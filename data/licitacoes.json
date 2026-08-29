@@ -8602,9 +8602,9 @@
     "modalidade": "Pregão - Eletrônico",
     "orgao": "SERVICO DE AGUA E SANEAMENTO  - SAS",
     "objeto": "AQUISIÇÃO DE VEÍCULOS E MÁQUINAS 0 KM, DEVIDAMENTE EMPLACADOS E LICENCIADOS, INCLUINDO TODOS OS CUSTOS DE TRANSPORTE, DOCUMENTAÇÃO E GARANTIA DE FÁBRICA, PARA ATENDIMENTO DAS DEMANDAS OPERACIONAIS DO SERVIÇO DE ÁGUA E SANEAMENTO - SAS DE BARBACENA.",
-    "valor_estimado": 1410140.42,
+    "valor_estimado": "1410140.42",
     "data_encerramento": "2026-09-04",
-    "dias_restantes": 6,
+    "dias_restantes": "6",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17714486000122/2026/36"
