@@ -9427,9 +9427,9 @@
     "modalidade": "Dispensa de Licitação",
     "orgao": "CAMARA MUNICIPAL DE BARBACENA",
     "objeto": "Contratação de serviço especializado para a confecção, fornecimento, montagem e instalação de painel/mural estrutural, destinado à implantação da “Galeria Lilás” no âmbito da Câmara Municipal de Barbacena/MG, em conformidade com a Resolução Municipal nº 376/2023.",
-    "valor_estimado": 9445.0,
+    "valor_estimado": "9445.0",
     "data_encerramento": "2026-09-09",
-    "dias_restantes": 7,
+    "dias_restantes": "7",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/20289385000166/2026/26"
