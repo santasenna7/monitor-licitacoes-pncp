@@ -9958,5 +9958,35 @@
     "municipio": "Imbé de Minas",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/01613233000122/2026/25"
+  },
+  {
+    "data_execucao": "2026-09-04 19:37",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "17744558000184-1-000098/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE SILVEIRANIA",
+    "objeto": "[Portal de Compras Públicas] - Aquisição de estereomicroscópio binocular, em atendimento as necessidades do setor de Vigilância Epidemiológica de Silveirânia/MG.",
+    "valor_estimado": "3957.78",
+    "data_encerramento": "2026-09-11",
+    "dias_restantes": "7",
+    "municipio": "Silveirânia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17744558000184/2026/98"
+  },
+  {
+    "data_execucao": "2026-09-04 19:38",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18338236000106-1-000079/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE PIAU",
+    "objeto": "Aquisição de telhas de fibrocimento e respectivos materiais de fixação e vedação, destinados ao atendimento das pessoas atingidas pela tempestade de granizo e vendaval ocorrida no Município de Piau/MG em 15/06/2026, no âmbito das ações de resposta ao desastre, custeadas com recursos financeiros transferidos pela União",
+    "valor_estimado": "61916.0",
+    "data_encerramento": "2026-09-10",
+    "dias_restantes": "6",
+    "municipio": "Piau",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18338236000106/2026/79"
   }
 ]
