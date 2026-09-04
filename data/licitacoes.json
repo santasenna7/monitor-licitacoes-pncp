@@ -9703,5 +9703,35 @@
     "municipio": "Além Paraíba",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17709197000135/2026/261"
+  },
+  {
+    "data_execucao": "2026-09-04 04:58",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18140772000194-1-000101/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE PERDIZES",
+    "objeto": "[LICITANET] - Contratação de empresa especializada para realizar a Ampliação do Complexo Esportivo do Novo Horizonte no Município de Perdizes – MG, cuja execução será viabilizada com recursos provenientes dos Planos de Ação nº 09032021-013645/2021 e nº 09032023-032808/2023, vinculados, respectivamente, aos Programas nº 09032021; e nº 09032023, na modalidade de Transferência Especial do então Ministério da Economia. A prestadora de serviços será responsável pelo fornecimento integral de materiais e mão de obra, conforme projetos, memoriais e planilha em anexo, que tem por finalidade atender a demanda necessária do município, de acordo com as especificações mínimas indicadas no Projeto Basico, anexo I deste edital",
+    "valor_estimado": "1209924.5",
+    "data_encerramento": "2026-09-17",
+    "dias_restantes": "13",
+    "municipio": "Perdizes",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18140772000194/2026/101"
+  },
+  {
+    "data_execucao": "2026-09-04 04:58",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18428888000123-1-000186/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE CONQUISTA",
+    "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS DE PESQUISA, LEVANTAMENTO HISTÓRICO-CULTURAL, PRODUÇÃO EDITORIAL, DIAGRAMAÇÃO, FOTOGRAFIA E ELABORAÇÃO DE GUIA TURÍSTICO DO PATRIMÔNIO CULTURAL DO MUNICÍPIO DE CONQUISTA/MG, COM A FINALIDADE DE REGISTRAR, PRESERVAR, VALORIZAR E DIVULGAR OS BENS HISTÓRICOS, CULTURAIS E TURÍSTICOS LOCAIS, COM RECURSOS PROVENIENTES DO FUNPAC.",
+    "valor_estimado": "20300.0",
+    "data_encerramento": "2026-09-09",
+    "dias_restantes": "5",
+    "municipio": "Conquista",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18428888000123/2026/186"
   }
 ]
