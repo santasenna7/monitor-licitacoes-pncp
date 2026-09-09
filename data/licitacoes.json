@@ -10537,11 +10537,41 @@
     "modalidade": "Dispensa de Licitação",
     "orgao": "MUNICIPIO DE BARBACENA",
     "objeto": "(SEMAD) Contratação de empresa especializada na prestação de serviços de controle sanitário integrado no combate a pragas urbanas e outros animais nocivos à saúde, englobando, desratização, desinsetização, descupinização em madeira, controle de avifauna nociva (pombos e morcegos) em áreas de ambientes internos e externos pertencentes ao Almoxarifado Central da Prefeitura de Barbacena.",
-    "valor_estimado": 12944.24,
+    "valor_estimado": "12944.24",
     "data_encerramento": "2026-09-16",
-    "dias_restantes": 7,
+    "dias_restantes": "7",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17095043000109/2026/39"
+  },
+  {
+    "data_execucao": "2026-09-09 21:47",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18239590000175-1-000201/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE BOA ESPERANCA",
+    "objeto": "REGISTRO DE PREÇOS PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE CONFECÇÃO DE PRÓTESES DENTÁRIAS, COMPREENDENDO O FORNECIMENTO DE TODOS OS MATERIAIS, INSUMOS, MÃO DE OBRA ESPECIALIZADA E DEMAIS RECURSOS NECESSÁRIOS À EXECUÇÃO DOS SERVIÇOS, DESTINADOS AO ATENDIMENTO DOS USUÁRIOS DO SISTEMA ÚNICO DE SAÚDE (SUS), CONFORME AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-09-25",
+    "dias_restantes": "16",
+    "municipio": "Boa Esperança",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18239590000175/2026/201"
+  },
+  {
+    "data_execucao": "2026-09-09 21:47",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "73357469000156-1-000140/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE LAGOA SANTA",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA A REALIZAÇÃO DAS OBRAS DE RECAPEAMENTO, PAVIMENTAÇÃO E OBRAS COMPLEMENTARES DE URBANIZAÇÃO EM DIVERSAS RUAS DA CIDADE, COM RECURSOS PRÓPRIOS DO MUNICÍPIO, COM FORNECIMENTO DE MATERIAIS, EQUIPAMENTOS NECESSÁRIOS E MÃO DE OBRA.",
+    "valor_estimado": "4415646.06",
+    "data_encerramento": "2026-09-28",
+    "dias_restantes": "19",
+    "municipio": "Lagoa Santa",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/73357469000156/2026/140"
   }
 ]
