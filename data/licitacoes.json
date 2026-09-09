@@ -10198,5 +10198,35 @@
     "municipio": "Juiz de Fora",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16695025000197/2026/839"
+  },
+  {
+    "data_execucao": "2026-09-09 01:33",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "73357469000156-1-000137/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE LAGOA SANTA",
+    "objeto": "CONTRATAÇÃO SEMI-INTEGRADA DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DOS SERVIÇOS NECESSÁRIOS PARA ELABORAÇÃO DOS PROJETOS COMPLEMENTARES EXECUTIVOS DE ENGENHARIA E EXECUÇÃO DA OBRA DE REFORMA IATE CLUBE - FASE 3: EXECUÇÃO DE COBERTURA EM MEMBRANA TENSIONADA, NO ENDEREÇO À AVENIDA GETÚLIO VARGAS, Nº 4.615 - JOÁ, LAGOA SANTA/MG, COM RECURSOS PRÓPRIOS DO MUNICÍPIO, COM FORNECIMENTO DE MATERIAIS, EQUIPAMENTOS NECESSÁRIOS E MÃO DE OBRA, CONFORME RELAÇÃO CONSTANTE NO PROJETO BÁSICO.",
+    "valor_estimado": "666666.66",
+    "data_encerramento": "2026-10-29",
+    "dias_restantes": "50",
+    "municipio": "Lagoa Santa",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/73357469000156/2026/137"
+  },
+  {
+    "data_execucao": "2026-09-09 01:33",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "73357469000156-1-000138/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE LAGOA SANTA",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REALIZAÇÃO DE OBRA DE CONSTRUÇÃO DA PRAÇA RUTH MARIA DE SALES, NO ENDEREÇO À AVENIDA JOSÉ DE ABREU PRIMO, S/N, BAIRRO RECANTO DA LAGOA - LAGOA SANTA/MG, COM RECURSOS PROVENIENTES DE TRANSFERÊNCIA ESPECIAL ESTADUAL Nº 1301002464/2026 E RECURSOS PRÓPRIOS DO MUNICÍPIO, COM FORNECIMENTO DE MATERIAIS, EQUIPAMENTOS NECESSÁRIOS E MÃO DE OBRA, CONFORME RELAÇÃO CONSTANTE NO PROJETO BÁSICO",
+    "valor_estimado": "747283.52",
+    "data_encerramento": "2026-09-22",
+    "dias_restantes": "13",
+    "municipio": "Lagoa Santa",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/73357469000156/2026/138"
   }
 ]
