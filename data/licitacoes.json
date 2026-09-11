@@ -11128,5 +11128,50 @@
     "municipio": "Belo Horizonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17387481000132/2026/34"
+  },
+  {
+    "data_execucao": "2026-09-11 21:14",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18398974000130-1-000090/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE NANUQUE",
+    "objeto": "REFERE-SE A CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA EXECUÇÃO DE OBRA, REFORMA E AMPLIAÇAO DO CEMEI IRMA DULCE NO MUNICIPIO DE NANUQUE - MG, UTILIZANDO RECURSOS DO CONVENIO SEE/MG",
+    "valor_estimado": "487043.72",
+    "data_encerramento": "2026-09-28",
+    "dias_restantes": "17",
+    "municipio": "Nanuque",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18398974000130/2026/90"
+  },
+  {
+    "data_execucao": "2026-09-11 21:14",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "10810342000120-1-000007/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "INSTITUTO DE PREVIDENCIA DOS SERVIDORES PUBLICOS DO MUNICIPIO DE MUZAMBINHO",
+    "objeto": "CONTRATAÇÃO DE EMPRESA PRESTADORA DE SERVIÇOS TÉCNICOS ESPECIALIZADOS EM ASSESSORIA PREVIDENCIÁRIA PARA O INSTITUTO DE PREVIDÊNCIA DOS SERVIDORES PÚBLICOS DO MUNICÍPIO DE MUZAMBINHO/MG - IPREM. \nJustifica-se a necessidade da contratação de empresa para a prestação de serviços de assessoria e consultoria previdenciária, de natureza singular e técnica, em razão das constantes mudanças e atualizações na legislação da Previdência Social, incluindo a edição e alteração de leis, regulamentos, decretos, instruções normativas e demais atos correlatos.",
+    "valor_estimado": "57080.04",
+    "data_encerramento": "2026-09-17",
+    "dias_restantes": "6",
+    "municipio": "Muzambinho",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/10810342000120/2026/7"
+  },
+  {
+    "data_execucao": "2026-09-11 21:14",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19053537000148-1-000031/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMANDUCAIA CAMARA MUNICIPAL",
+    "objeto": "Contratação de empresa especializada para fornecimento de passagens aéreas com destino a Aracajú/SE para vereadores da Câmara Municipal de Camanducaia, para participação no XXVIII Simpósio Brasileiro de Recursos Hídricos.",
+    "valor_estimado": "2529.0",
+    "data_encerramento": "2026-09-21",
+    "dias_restantes": "10",
+    "municipio": "Camanducaia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19053537000148/2026/31"
   }
 ]
