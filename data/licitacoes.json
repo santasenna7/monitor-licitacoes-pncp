@@ -11173,5 +11173,35 @@
     "municipio": "Camanducaia",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/19053537000148/2026/31"
+  },
+  {
+    "data_execucao": "2026-09-11 23:23",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "18431312000620-1-000399/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE UBERLANDIA",
+    "objeto": "Aquisição de insumos para cursos profissionalizantes (de maquiagem, manicure, depilação e outros) oferecidos pela Secretaria Municipal de Desenvolvimento Social.",
+    "valor_estimado": "58356.63",
+    "data_encerramento": "2026-09-17",
+    "dias_restantes": "6",
+    "municipio": "Uberlândia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18431312000620/2026/399"
+  },
+  {
+    "data_execucao": "2026-09-11 23:23",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18431312000620-1-000399/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE UBERLANDIA",
+    "objeto": "Aquisição de insumos para cursos profissionalizantes (de maquiagem, manicure, depilação e outros) oferecidos pela Secretaria Municipal de Desenvolvimento Social.",
+    "valor_estimado": "58356.63",
+    "data_encerramento": "2026-09-17",
+    "dias_restantes": "6",
+    "municipio": "Uberlândia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18431312000620/2026/399"
   }
 ]
