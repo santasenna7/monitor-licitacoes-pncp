@@ -12793,5 +12793,35 @@
     "municipio": "Itamonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/02858064000153/2026/12"
+  },
+  {
+    "data_execucao": "2026-09-19 04:10",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18363952000135-1-000042/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE MOEDA",
+    "objeto": "AQUISIÇÃO DE MEDICAMENTOS, POR ITEM, PARA ATENDIMENTO À FARMÁCIA DE MINAS, VINCULADA À SECRETARIA MUNICIPAL DE SAÚDE DO MUNICÍPIO DE MOEDAMG",
+    "valor_estimado": "2591272.9",
+    "data_encerramento": "2026-10-01",
+    "dias_restantes": "12",
+    "municipio": "Moeda",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18363952000135/2026/42"
+  },
+  {
+    "data_execucao": "2026-09-19 04:10",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18296632000100-1-000211/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE ABAETE",
+    "objeto": "[Portal de Compras Públicas] - Contratação de empresa especializada em prestar consultoria referente ao sistema Prontuário Eletrônico do Cidadão (PEC/e-SUS APS) para assessoramento das Unidades de Saúde do município de Abaeté/MG, incluindo fornecimento de servidor web, instalação, configuração, atualizações, treinamento dos profissionais de saúde e suporte técnico, conforme condições, quantidades e exigências estabelecidas neste documento e seus anexos.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-09-24",
+    "dias_restantes": "5",
+    "municipio": "Abaeté",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18296632000100/2026/211"
   }
 ]
