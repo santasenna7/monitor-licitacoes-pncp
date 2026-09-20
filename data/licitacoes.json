@@ -12823,5 +12823,20 @@
     "municipio": "Abaeté",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18296632000100/2026/211"
+  },
+  {
+    "data_execucao": "2026-09-20 00:46",
+    "fonte": "barbacena",
+    "empresa": "Barbacena (Busca por palavra-chave)",
+    "numero_pncp": "10723648000140-1-000096/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO SUDESTE DE MINAS GERAIS",
+    "objeto": "Contratação de empresa de engenharia para a instalação e montagem do sistema de aquecimento da piscina do Campus Barbacena",
+    "valor_estimado": 1123920.28,
+    "data_encerramento": "2026-11-19",
+    "dias_restantes": 60,
+    "municipio": "Juiz de Fora",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/10723648000140/2026/96"
   }
 ]
