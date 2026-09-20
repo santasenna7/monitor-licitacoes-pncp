@@ -12832,9 +12832,9 @@
     "modalidade": "Concorrência - Eletrônica",
     "orgao": "INSTITUTO FEDERAL DE EDUCACAO, CIENCIA E TECNOLOGIA DO SUDESTE DE MINAS GERAIS",
     "objeto": "Contratação de empresa de engenharia para a instalação e montagem do sistema de aquecimento da piscina do Campus Barbacena",
-    "valor_estimado": 1123920.28,
+    "valor_estimado": "1123920.28",
     "data_encerramento": "2026-11-19",
-    "dias_restantes": 60,
+    "dias_restantes": "60",
     "municipio": "Juiz de Fora",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/10723648000140/2026/96"
