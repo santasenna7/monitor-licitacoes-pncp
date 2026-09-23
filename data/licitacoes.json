@@ -13633,5 +13633,50 @@
     "municipio": "Juiz de Fora",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17813026000151/2026/43"
+  },
+  {
+    "data_execucao": "2026-09-23 22:55",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "00402552000126-1-000455/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "COMISSAO NACIONAL DE ENERGIA NUCLEAR",
+    "objeto": "Aquisição de materiais (Lixa d’água, Abraçadeira plástica, Acetona PA NEON, Álcool isopropílico PA 1L, Álcool Etílico 95% PA 1L, Álcool Etílico absoluto 99,5% PA 1L, Granalha de vidro M.V. 0,59 mm 25Kg, Par de luvas para jateamento, TUBO TERMORRETRÁTIL TEFLON, TUBO TERMORRETRÁTIL VITON)",
+    "valor_estimado": "3212.45",
+    "data_encerramento": "2026-09-29",
+    "dias_restantes": "6",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/00402552000126/2026/455"
+  },
+  {
+    "data_execucao": "2026-09-23 22:55",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "18392514000103-1-000050/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE SAO JOSE DO MANTIMENTO",
+    "objeto": "Contratação de empresa especializada para a prestação de serviços continuados e/ou eventuais de demolição de rocha a frio, até a altura de 3,0 (três) metros, mediante o emprego de argamassa expansiva, compreendendo o fornecimento integral de mão de obra especializada, equipamentos, ferramentas, insumos químicos e a execução da limpeza e destinação final ambientalmente adequada dos resíduos (bota-fora), para atender às necessidades da Secretaria Municipal de Obras e Serviços Urbanos.",
+    "valor_estimado": "20750.0",
+    "data_encerramento": "2026-09-28",
+    "dias_restantes": "5",
+    "municipio": "São José do Mantimento",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18392514000103/2026/50"
+  },
+  {
+    "data_execucao": "2026-09-23 22:55",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18296632000100-1-000216/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE ABAETE",
+    "objeto": "[Portal de Compras Públicas] - Aquisição de medicamentos, destinados à distribuição gratuita aos usuários do Sistema Único de Saúde (SUS), suprindo às demandas da Farmácia de Minas e da UNIDADE DE PRONTO ATENDIMENTO decorrentes da ausência de saldo do processo 170/2025, bem como falta de distribuição de medicamentos oriundos do Procedimento Estadual SIGAF, conforme condições, quantidades e exigências estabelecidas no Termo de Referência.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-10-01",
+    "dias_restantes": "8",
+    "municipio": "Abaeté",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18296632000100/2026/216"
   }
 ]
