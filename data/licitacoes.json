@@ -16552,9 +16552,9 @@
     "modalidade": "Dispensa de Licitação",
     "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
     "objeto": "Serviço de traslado de bagagens do Sr Cel PM Carlos Henrique Sousa da Silva de Divinópolis/MG para Barbacena/MG.",
-    "valor_estimado": 7466.66,
+    "valor_estimado": "7466.66",
     "data_encerramento": "2026-10-07",
-    "dias_restantes": 5,
+    "dias_restantes": "5",
     "municipio": "Divinópolis",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16695025000197/2026/974"
