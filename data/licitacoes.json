@@ -16558,5 +16558,20 @@
     "municipio": "Divinópolis",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16695025000197/2026/974"
+  },
+  {
+    "data_execucao": "2026-10-05 01:09",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "19843929000100-1-000863/2025",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS",
+    "objeto": "aquisição do medicamento fosfato de potassio",
+    "valor_estimado": "",
+    "data_encerramento": "2026-12-04",
+    "dias_restantes": "60",
+    "municipio": "Barbacena",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19843929000100/2025/863"
   }
 ]
