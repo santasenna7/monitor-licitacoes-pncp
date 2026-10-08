@@ -17623,5 +17623,35 @@
     "municipio": "Araguari",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16829640000149/2026/131"
+  },
+  {
+    "data_execucao": "2026-10-08 10:30",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18357079000178-1-000029/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE DIVINO DAS LARANJEIRAS",
+    "objeto": "[LICITANET] - REGISTRO DE PREÇO PARA FUTURA E EVENTUAL CONTRATAÇÃO DE EMPRESA PARA O FORNECIMENTO PARCELADO DE MEDICAMENTOS ÉTICOS DE “A” A “Z”, COM BASE NO MAIOR PERCENTUAL DE DESCONTO (%), CONSTANTES NA TABELA CMED/ANVISA, EM ATENDIMENTO À SECRETARIA MUNICIPAL DE SAÚDE DO MUNICÍPIO DE DIVINO DAS LARANJEIRAS /MG.",
+    "valor_estimado": "3.0",
+    "data_encerramento": "2026-10-14",
+    "dias_restantes": "6",
+    "municipio": "Divino das Laranjeiras",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18357079000178/2026/29"
+  },
+  {
+    "data_execucao": "2026-10-08 10:30",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19110162000100-1-000283/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "FUNDACAO HOSPITALAR DO MUNICIPIO DE VARGINHA FHOMUV",
+    "objeto": "[Portal de Compras Públicas] - CONTRATAÇÃO DE SERVIÇOS TÉCNICOS ESPECIALIZADOS DE PLANEJAMENTO, ORGANIZAÇÃO, PREPARAÇÃO E REALIZAÇÃO DE CONCURSO PÚBLICO",
+    "valor_estimado": "88296.0",
+    "data_encerramento": "2026-12-03",
+    "dias_restantes": "56",
+    "municipio": "Varginha",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19110162000100/2026/283"
   }
 ]
