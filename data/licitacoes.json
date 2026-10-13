@@ -18682,11 +18682,41 @@
     "modalidade": "Concorrência - Eletrônica",
     "orgao": "MUNICIPIO DE BARBACENA",
     "objeto": "(SEMOP)  Contratação de empresa especializada para a execução de obra de engenharia compreendendo reforma, restauração e adequação da Casa da Cultura do Município de Barbacena/MG, em atendimento ao Contrato de Repasse nº 949913/2023 - Caixa Econômica Federal – CEF.",
-    "valor_estimado": 1287457.59,
+    "valor_estimado": "1287457.59",
     "data_encerramento": "2026-11-18",
-    "dias_restantes": 36,
+    "dias_restantes": "36",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17095043000109/2026/14"
+  },
+  {
+    "data_execucao": "2026-10-13 22:02",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "03389126000198-1-000099/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "CORPO DE BOMBEIROS MILITAR DE MINAS GERAIS",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA ELABORAÇÃO DO PROJETO DE SEGURANÇA CONTRA INCÊNDIO E PÂNICO (PSCIP) DO CENTRO DE TREINAMENTO PROFISSIONAL, COM APROVAÇÃO JUNTO AO CBMMG",
+    "valor_estimado": "66430.37",
+    "data_encerramento": "2026-11-23",
+    "dias_restantes": "41",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/03389126000198/2026/99"
+  },
+  {
+    "data_execucao": "2026-10-13 22:02",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "05368275000104-1-000008/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMARA MUNICIPAL DE ITAGUARA",
+    "objeto": "Prestação de serviços de telefonia fixa e móvel, mediante disponibilização de solução de PABX em nuvem, baseada em tecnologia VoIP (Voice over Internet Protocol), compreendendo a implantação, instalação, configuração, suporte técnico, manutenção, portabilidade, gerenciamento dos números telefônicos da Câmara Municipal e treinamento para utilização da solução, incluindo orientação aos usuários quanto às funcionalidades do sistema e utilização dos aparelhos telefônicos, conforme  Termo referência.",
+    "valor_estimado": "12678.84",
+    "data_encerramento": "2026-10-29",
+    "dias_restantes": "16",
+    "municipio": "Itaguara",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/05368275000104/2026/8"
   }
 ]
