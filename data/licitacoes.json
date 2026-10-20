@@ -20263,5 +20263,50 @@
     "municipio": "Araçuaí",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17963083000117/2026/79"
+  },
+  {
+    "data_execucao": "2026-10-20 20:57",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "17217985005840-1-000067/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+    "objeto": "Dispensa Eletrônica, a fim de contratar, à pedido da FARMACIA-SECACT, serviços de \"manutenção preventiva e corretiva de microscópios, com fornecimento de peças e limpeza\", conforme detalhado no Termo de Referência doc. SEI id 5613453.",
+    "valor_estimado": "11120.0",
+    "data_encerramento": "2026-10-26",
+    "dias_restantes": "6",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17217985005840/2026/67"
+  },
+  {
+    "data_execucao": "2026-10-20 20:57",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18025999000199-1-000119/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE SAO JOSE DO ALEGRE",
+    "objeto": "AQUISIÇÃO DE EQUIPAMENTOS AUDIOVISUAIS, DE INFORMÁTICA E MOBILIÁRIO, COMPREENDENDO NOTEBOOK, CAIXA DE SOM AMPLIFICADA PORTÁTIL DE ALTA POTÊNCIA, TELA DE PROJEÇÃO PORTÁTIL DE 120 POLEGADAS COM TRIPÉ E ES-TANTE DE AÇO GALVANIZADO, DESTINADOS AO ATENDIMENTO DAS ATIVIDADES ADMINISTRATIVAS, CULTURAIS, TURÍSTICAS, EVENTOS, APRESENTAÇÕES, PA-LESTRAS, REUNIÕES E DEMAIS AÇÕES PROMOVIDAS PELA SECRETARIA MUNICI-PAL DE CULTURA E TURISMO DE SÃO JOSÉ DO ALEGRE/MG (CUSTEIO COM RE-CURSOS DA POLÍTICA NACIONAL AL",
+    "valor_estimado": "8739.67",
+    "data_encerramento": "2026-10-27",
+    "dias_restantes": "7",
+    "municipio": "São José do Alegre",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18025999000199/2026/119"
+  },
+  {
+    "data_execucao": "2026-10-20 20:57",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "01613077000108-1-000111/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE PERIQUITO",
+    "objeto": "A presente dispensa eletrônica tem por objeto a contratação de empresa\nespecializada para implantação e licenciamento de solução integrada de software para\ngestão da educação pública municipal, contemplando Sistema para Ambiente Virtual de\nAprendizagem – EaD, com instalação, configuração, hospedagem, treinamento de\nservidores, atualizações de versões e suporte técnico continuado, para atendimento da\nSecretaria Municipal de Educação de Periquito/MG.",
+    "valor_estimado": "31900.04",
+    "data_encerramento": "2026-10-26",
+    "dias_restantes": "6",
+    "municipio": "Periquito",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/01613077000108/2026/111"
   }
 ]
