@@ -21088,5 +21088,35 @@
     "municipio": "Bandeira",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18349902000101/2026/30"
+  },
+  {
+    "data_execucao": "2026-10-22 19:19",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18295329000192-1-000109/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE OURO BRANCO",
+    "objeto": "REGISTRO DE PREÇO PARA FUTURA E EVENTUAL AQUISIÇÃO DE MEDICAMENTOS PARA SATISFAZER A NECESSIDADE DA SECRETARIA MUNICIPAL DE SAÚDE DE OURO BRANCO - MG",
+    "valor_estimado": "3460423.34",
+    "data_encerramento": "2026-11-05",
+    "dias_restantes": "14",
+    "municipio": "Ouro Branco",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18295329000192/2026/109"
+  },
+  {
+    "data_execucao": "2026-10-22 19:19",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "13985869000184-1-000082/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "CONSORCIO INTERMUNICIPAL DE SAUDE DA MACRO REGIAO DO SULDE MINAS",
+    "objeto": "Registro de Preços para futura e eventual aquisição de medicamentos e soluções injetáveis, orais e tópicas, devidamente registrados na ANVISA e em conformidade com as legislações sanitárias vigentes, destinados a suprir as necessidades assistenciais e operacionais do Serviço de Atendimento Móvel de Urgência – SAMU 192 do CISSUL, conforme especificações, quantidades estimadas e condições estabelecidas no Termo de Referênciae demais anexos do edital",
+    "valor_estimado": "1098815.6",
+    "data_encerramento": "2026-10-27",
+    "dias_restantes": "5",
+    "municipio": "Varginha",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/13985869000184/2026/82"
   }
 ]
