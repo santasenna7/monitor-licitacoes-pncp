@@ -21793,5 +21793,50 @@
     "municipio": "Belo Horizonte",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17217985005840/2026/83"
+  },
+  {
+    "data_execucao": "2026-10-26 21:48",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18449140000107-1-000135/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE FRONTEIRA",
+    "objeto": "[LICITANET] - REGISTRO DE PREÇOS PARA AQUISIÇÃO DE MEDICAMENTOS DIVERSOS, A SEREM UTILIZADOS NO DESENVOLVIMENTO DAS AÇÕES DIÁRIAS DA UNIDADE MISTA DE SAÚDE DESTE MUNICÍPIO, NOS ATENDIMENTOS À MÉDIA E ALTA COMPLEXIDADE.",
+    "valor_estimado": "1179736.2",
+    "data_encerramento": "2026-11-05",
+    "dias_restantes": "10",
+    "municipio": "Fronteira",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18449140000107/2026/135"
+  },
+  {
+    "data_execucao": "2026-10-26 21:48",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "20491718000135-1-000024/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "FUNDACAO MUNICIPAL DE ENSINO PROFISSIONALIZANTE",
+    "objeto": "Aquisição de materiais químicos, reagentes e produtos para diagnóstico in vitro,destinados às aulas práticas dos Cursos Técnicos e às atividades laboratoriais daEscola Técnica de Sete Lagoas , unidade da FUMEP.",
+    "valor_estimado": "11438.5",
+    "data_encerramento": "2026-11-03",
+    "dias_restantes": "8",
+    "municipio": "Sete Lagoas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/20491718000135/2026/24"
+  },
+  {
+    "data_execucao": "2026-10-26 21:49",
+    "fonte": "barbacena",
+    "empresa": "Barbacena (Busca por palavra-chave)",
+    "numero_pncp": "20289385000166-1-000032/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMARA MUNICIPAL DE BARBACENA",
+    "objeto": "Aquisição de extintores de incêndio novos e de materiais destinados à sinalização de segurança contra incêndio e emergência, incluindo suportes do tipo tripé para extintores, placas de sinalização de extintores de incêndio e placas de sinalização de saída de emergência, para atendimento às necessidades dos gabinetes parlamentares, do Centro de Atendimento ao Cidadão (CAC), do imóvel locado para sediar o arquivo e da sede administrativa da Câmara Municipal de Barbacena.",
+    "valor_estimado": 10221.12,
+    "data_encerramento": "2026-11-03",
+    "dias_restantes": 8,
+    "municipio": "Barbacena",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/20289385000166/2026/32"
   }
 ]
