@@ -21832,9 +21832,9 @@
     "modalidade": "Dispensa de Licitação",
     "orgao": "CAMARA MUNICIPAL DE BARBACENA",
     "objeto": "Aquisição de extintores de incêndio novos e de materiais destinados à sinalização de segurança contra incêndio e emergência, incluindo suportes do tipo tripé para extintores, placas de sinalização de extintores de incêndio e placas de sinalização de saída de emergência, para atendimento às necessidades dos gabinetes parlamentares, do Centro de Atendimento ao Cidadão (CAC), do imóvel locado para sediar o arquivo e da sede administrativa da Câmara Municipal de Barbacena.",
-    "valor_estimado": 10221.12,
+    "valor_estimado": "10221.12",
     "data_encerramento": "2026-11-03",
-    "dias_restantes": 8,
+    "dias_restantes": "8",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/20289385000166/2026/32"
