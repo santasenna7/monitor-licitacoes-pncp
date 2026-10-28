@@ -22468,5 +22468,35 @@
     "municipio": "João Pinheiro",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/16930299000113/2026/226"
+  },
+  {
+    "data_execucao": "2026-10-28 19:09",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18194076000160-1-000088/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE BOCAINA DE MINAS",
+    "objeto": "[Portal de Compras Públicas] - O objeto da presente licitação é a Constitui objeto do presente procedimento licitatório a seleção de proposta mais vantajosa visando à aquisição de materiais pedagógicos especializados e equipamentos destinados à estruturação de Sala de Recursos para o\nAtendimento Educacional Especializado (AEE) voltado à Educação Infantil, bem como o fornecimento de mesa de tênis de mesa, parque infantil recreativo (playground) e tela interativa multimídia, para atender a rede pública de ensino do Município de Bocaina de Minas, conforme condições, quantidades e exigências estabelecidas neste Edital e seus anexos.",
+    "valor_estimado": "79614.78",
+    "data_encerramento": "2026-11-05",
+    "dias_restantes": "8",
+    "municipio": "Bocaina de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18194076000160/2026/88"
+  },
+  {
+    "data_execucao": "2026-10-28 19:09",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "73357469000156-1-000168/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE LAGOA SANTA",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REALIZAÇÃO DE OBRA DE PLANTIO DE GRAMA E REFORMA EM DIVERSOS CAMPOS DE FUTEBOL, EM LAGOA SANTA/MG, COM RECURSOS PRÓPRIOS DO MUNICÍPIO, COM FORNECIMENTO DE MATERIAIS, EQUIPAMENTOS NECESSÁRIOS E MÃO DE OBRA, CONFORME RELAÇÃO CONSTANTE NO PROJETO BÁSICO.",
+    "valor_estimado": "2245567.18",
+    "data_encerramento": "2026-11-13",
+    "dias_restantes": "16",
+    "municipio": "Lagoa Santa",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/73357469000156/2026/168"
   }
 ]
