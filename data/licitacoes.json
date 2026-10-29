@@ -22528,5 +22528,50 @@
     "municipio": "Sabará",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18715441000135/2026/95"
+  },
+  {
+    "data_execucao": "2026-10-29 08:51",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "17316563000196-1-000071/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "BELO HORIZONTE CAMARA MUNICIPAL",
+    "objeto": "[5852026] AQUISICAO DE MEDICAMENTOS SOB AS FORMAS ORAL, TOPICA, DE INSTILACAO OU AEROSSOL PARA USO AMBULATORIAL MEDICO, FISIOTERAPICO E DE ENFERMAGEM",
+    "valor_estimado": "846.84",
+    "data_encerramento": "2026-11-06",
+    "dias_restantes": "8",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17316563000196/2026/71"
+  },
+  {
+    "data_execucao": "2026-10-29 08:51",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "19718360000151-1-000155/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE CONSELHEIRO LAFAIETE",
+    "objeto": "Contratação de empresa especializada para a execução de obra de construção de praça no bairro Gagé, no Município de Conselheiro Lafaiete/MG, incluindo o fornecimento de materiais, mão de obra, equipamentos e demais recursos necessários à completa execução do objeto, conforme especificações e condições estabelecidas no projeto e demais documentos técnicos.",
+    "valor_estimado": "79986.84",
+    "data_encerramento": "2026-11-17",
+    "dias_restantes": "19",
+    "municipio": "Conselheiro Lafaiete",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19718360000151/2026/155"
+  },
+  {
+    "data_execucao": "2026-10-29 08:51",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "11461307000106-1-000005/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMARA MUNICIPAL DE CARMESIA",
+    "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA DIGITALIZAÇÃO DE 120.000 PÁGINAS DE DOCUMENTOS EM FORMATO A4, INCLUINDO PREPARAÇÃO, CAPTURA, TRATAMENTO, CONFERÊNCIA, INDEXAÇÃO E DISPONIBILIZAÇÃO EM PDF/A NO SISTEMA WEB DE GERENCIAMENTO ELETRÔNICO DE DOCUMENTOS — GED, NO MESMO DIA DA DIGITALIZAÇÃO, E LOCAÇÃO DE 2 SCANNERS PROFISSIONAIS E DO SISTEMA GED POR 12 MESES, COM IMPLANTAÇÃO, ARMAZENAMENTO, TREINAMENTO, MANUTENÇÃO,\nSUPORTE E ACOMPANHAMENTO TÉCNICO PRESENCIAL A CADA 15 DIAS",
+    "valor_estimado": "65000.04",
+    "data_encerramento": "2026-11-04",
+    "dias_restantes": "6",
+    "municipio": "Carmésia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/11461307000106/2026/5"
   }
 ]
