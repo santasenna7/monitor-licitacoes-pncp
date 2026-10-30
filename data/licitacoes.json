@@ -23083,5 +23083,50 @@
     "municipio": "Campanha",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18712174000142/2026/160"
+  },
+  {
+    "data_execucao": "2026-10-30 13:13",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "15126437000305-1-004340/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "EMPRESA BRASILEIRA DE SERVICOS HOSPITALARES - EBSERH",
+    "objeto": "MEDICAMENTOS GRANDES E PEQUENOS VOLUMES (REEDIÇÃO)",
+    "valor_estimado": "",
+    "data_encerramento": "2026-11-12",
+    "dias_restantes": "13",
+    "municipio": "Uberlândia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/15126437000305/2026/4340"
+  },
+  {
+    "data_execucao": "2026-10-30 13:13",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18291377000102-1-000212/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE CARMO DO CAJURU",
+    "objeto": "Aquisição de tablets destinados à utilização em práticas de Comunicação Aumentativa e Alternativa (CAA), voltados ao atendimento de alunos com deficiência, especialmente aqueles com Transtorno do Espectro Autista (TEA) com necessidade de suporte elevado,\nincluindo acessórios e recursos de proteção, conforme condições e especificações estabelecidas neste Termo de Referência.",
+    "valor_estimado": "33413.8",
+    "data_encerramento": "2026-11-05",
+    "dias_restantes": "6",
+    "municipio": "Carmo do Cajuru",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18291377000102/2026/212"
+  },
+  {
+    "data_execucao": "2026-10-30 13:13",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "16695025000197-1-001101/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "POLICIA MILITAR DO ESTADO DE MINAS GERAIS",
+    "objeto": "Treinamentos para pilotos do COMAVE",
+    "valor_estimado": "",
+    "data_encerramento": "2026-11-09",
+    "dias_restantes": "10",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/16695025000197/2026/1101"
   }
 ]
