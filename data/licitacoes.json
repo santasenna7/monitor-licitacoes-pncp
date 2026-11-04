@@ -23383,5 +23383,20 @@
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17095043000109/2026/49"
+  },
+  {
+    "data_execucao": "2026-11-04 08:10",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "00444232000139-1-001486/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "INDUSTRIA DE MATERIAL BELICO DO BRASIL IMBEL",
+    "objeto": "Contratação de Empresa Especializada para execução integrada de serviços de engenharia na Pequena Central Hidrelétrica REPI – PCH REPI",
+    "valor_estimado": "638196.91",
+    "data_encerramento": "2026-11-18",
+    "dias_restantes": "14",
+    "municipio": "Itajubá",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/00444232000139/2026/1486"
   }
 ]
