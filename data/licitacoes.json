@@ -23773,5 +23773,50 @@
     "municipio": "Coronel Pacheco",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18338152000164/2026/128"
+  },
+  {
+    "data_execucao": "2026-11-04 22:00",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17899717000110-1-000177/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE ARCEBURGO",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA REFORMA E MANUTENÇÃO DOS POSTES E REFLETORES DA PRAÇA FRANCISCA STOCHI/SÃO SEBASTIÃO, ATRAVÉS DOS RECURSOS ORIUNDOS DE EMENDA PARLAMENTAR IMPOSITIVA N° 15/2025.",
+    "valor_estimado": "14819.46",
+    "data_encerramento": "2026-11-25",
+    "dias_restantes": "21",
+    "municipio": "Arceburgo",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17899717000110/2026/177"
+  },
+  {
+    "data_execucao": "2026-11-04 22:00",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18684217000123-1-000074/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE BOM JARDIM DE MINAS",
+    "objeto": "[Portal de Compras Públicas] - Aquisição de materiais pedagógicos destinados ao atendimento e desenvolvimento das atividades do Setor de Psicologia, bem como de brinquedos para equipar e promover a humanização da ala pediátrica do Hospital Dr. Armando Ribeiro, visando proporcionar melhores condições de atendimento, estimular o desenvolvimento cognitivo, emocional e social das crianças e tornar o ambiente hospitalar mais acolhedor e lúdico, conforme recursos provenientes da Emenda Impositiva nº 55, de autoria do Vereador Enzo Peixoto de Almeida, e da Emenda Impositiva nº 21, de autoria da Vereadora Ana Cláudia Gomes.",
+    "valor_estimado": "2830.21",
+    "data_encerramento": "2026-11-10",
+    "dias_restantes": "6",
+    "municipio": "Bom Jardim de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18684217000123/2026/74"
+  },
+  {
+    "data_execucao": "2026-11-04 22:00",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "04837539000150-1-000034/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CAMARA MUNICIPAL DE MADRE DE DEUS DE MINAS",
+    "objeto": "Contratação de empresa especializada na prestação de serviços técnicos de assessoria e consultoria tributária, destinados a subsidiar os vereadores e os integrantes da Comissão de Finanças e Orçamento da Câmara Municipal de Madre de Deus de Minas/MG no estudo, na análise e no acompanhamento da tramitação legislativa do Projeto de Lei Complementar nº 004/2025, referente à reforma do Código Tributário Municipal, mediante esclarecimentos técnicos sobre os dispositivos propostos, seus fundamentos, objetivos e possíveis impactos, orientação quanto à legislação tributária aplicável e auxílio na análise de sugestões, adequações e eventuais emendas, sem substituição das atribuições dos vereadores, das comissões legislativas ou da Assessoria Jurídica do Poder Legislativo.",
+    "valor_estimado": "18106.67",
+    "data_encerramento": "2026-11-10",
+    "dias_restantes": "6",
+    "municipio": "Madre de Deus de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/04837539000150/2026/34"
   }
 ]
