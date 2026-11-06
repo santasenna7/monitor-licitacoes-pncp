@@ -24178,5 +24178,50 @@
     "municipio": "Diamantina",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17754136000190/2026/249"
+  },
+  {
+    "data_execucao": "2026-11-06 11:23",
+    "fonte": "empresa",
+    "empresa": "DDA - DEDETIZADORES ASSOCIADOS",
+    "numero_pncp": "26989715000102-1-001814/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MINISTERIO PUBLICO DA UNIAO",
+    "objeto": "Contratação de empresa especializada em prestação de serviços de CONTROLE DE VETORES E PRAGAS URBANAS, para eliminação e controle de pombos na PROCURADORIA DO TRABALHO NO MUNICÍPIO DE POUSO ALEGRE, compreendendo o fornecimento de materiais, equipamentos, mão de obra e garantia técnica.",
+    "valor_estimado": "28600.0",
+    "data_encerramento": "2026-11-11",
+    "dias_restantes": "5",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/26989715000102/2026/1814"
+  },
+  {
+    "data_execucao": "2026-11-06 11:24",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18602060000140-1-000076/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE PRESIDENTE OLEGARIO",
+    "objeto": "[LICITANET] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO CONTINUADA DE SERVIÇOS DE TELECOMUNICAÇÕES, COMPREENDENDO TELEFONIA FIXA IP, TELEFONIA MÓVEL CORPORATIVA (SMP) E COMUNICAÇÃO DE DADOS M2M, INCLUINDO OS RECURSOS, EQUIPAMENTOS, SUPORTE E SERVIÇOS NECESSÁRIOS AO SEU PLENO FUNCIONAMENTO",
+    "valor_estimado": "600646.73",
+    "data_encerramento": "2026-11-12",
+    "dias_restantes": "6",
+    "municipio": "Presidente Olegário",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18602060000140/2026/76"
+  },
+  {
+    "data_execucao": "2026-11-06 11:24",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "24359333000170-1-000185/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE SALINAS",
+    "objeto": "[Portal de Compras Públicas] - Contratação de empresa especializada em Engenharia e Construção Civil para execução de obra de implantação de melhorias sanitárias domiciliares (MSD) em área urbana, no município de Salinas/MG (Recurso: Convênio FUNASA nº 931037/2022)",
+    "valor_estimado": "416505.76",
+    "data_encerramento": "2026-11-23",
+    "dias_restantes": "17",
+    "municipio": "Salinas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/24359333000170/2026/185"
   }
 ]
