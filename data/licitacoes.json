@@ -24532,11 +24532,41 @@
     "modalidade": "Dispensa de Licitação",
     "orgao": "MUNICIPIO DE BARBACENA",
     "objeto": "(SEGOV) Aquisição de Medalhas Personalizadas acompanhadas de fitas, passador e estojo, em observância ao decreto Municipal 10.104/2026, a fim de atender às necessidades da Secretaria Municipal de Governo (SEGOV) do Município de Barbacena- MG.",
-    "valor_estimado": 10310.4,
+    "valor_estimado": "10310.4",
     "data_encerramento": "2026-11-16",
-    "dias_restantes": 9,
+    "dias_restantes": "9",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/17095043000109/2026/50"
+  },
+  {
+    "data_execucao": "2026-11-07 09:15",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17220203000196-1-000195/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "CENTRO FEDERAL DE EDUCACAO TECNOLOGICA DE MINAS GERAIS",
+    "objeto": "Kit didático de Microcontrolador Arduino de 8 bits e os principais circuitos e recursos montados em placa única, com fontes de alimentação, no bastidor robusto e guias de experiências",
+    "valor_estimado": "43310.47",
+    "data_encerramento": "2026-11-12",
+    "dias_restantes": "5",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17220203000196/2026/195"
+  },
+  {
+    "data_execucao": "2026-11-07 09:15",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18557546000103-1-000123/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE CORONEL XAVIER CHAVES",
+    "objeto": "Contratação de empresa especializada para prestação de serviços de consultoria e assessoria técnica em patrimônio cultural, incluindo elaboração, atualização, revisão e organização de documentos, inventários, laudos técnicos, programas de educação patrimonial e demais ações relacionadas à política municipal de proteção ao patrimônio cultural, com suporte técnico junto ao IEPHA/MG para atendimento às exigências do Programa ICMS Patrimônio Cultural do Município de Coronel Xavier Chaves/MG, pelo período de 12 meses.",
+    "valor_estimado": "19500.0",
+    "data_encerramento": "2026-11-13",
+    "dias_restantes": "6",
+    "municipio": "Coronel Xavier Chaves",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18557546000103/2026/123"
   }
 ]
