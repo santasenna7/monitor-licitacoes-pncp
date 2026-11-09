@@ -24568,5 +24568,50 @@
     "municipio": "Coronel Xavier Chaves",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18557546000103/2026/123"
+  },
+  {
+    "data_execucao": "2026-11-09 16:08",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18682930000138-1-000106/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE ANDRELANDIA",
+    "objeto": "Contratação de empresa para prestar consultoria técnica\npara auxiliar e executar trabalhos de patrimônio cultural (critério ICMS Cultural), ano 2026,\nexercício 2026, em cumprimento ao cronograma e plano de trabalho do Conselho Municipal de\nPatrimônio do Andrelândia / MG e critérios da deliberação CONEP vigente, conforme condições,\nquantidades e exigências estabelecidas no Edital e seus anexos.",
+    "valor_estimado": "87600.0",
+    "data_encerramento": "2026-11-16",
+    "dias_restantes": "7",
+    "municipio": "Andrelândia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18682930000138/2026/106"
+  },
+  {
+    "data_execucao": "2026-11-09 16:08",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "05802877000110-1-000108/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "INSTITUICAO DE COOPERACAO INTERMUNICIPAL DO MEDIO PARAOPEBA",
+    "objeto": "[Portal de Compras Públicas] - Contratação de pessoa jurídica especializada para a prestação de serviços continuados de gestão e operação logística integrada em saúde, mediante disponibilização de Centro de Distribuição previamente implantado, regularizado e licenciado, abrangendo \narmazenagem, gestão de estoques, movimentação, separação, expedição, transporte, distribuição, logística reversa e demais atividades correlatas, incluindo todos os serviços, recursos e meios necessários à execução integral da operação logística sob \nresponsabilidade do Consórcio ICISMEP.",
+    "valor_estimado": "",
+    "data_encerramento": "2026-11-16",
+    "dias_restantes": "7",
+    "municipio": "São Joaquim de Bicas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/05802877000110/2026/108"
+  },
+  {
+    "data_execucao": "2026-11-09 16:08",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18094870000132-1-000087/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE SENHORA DOS REMEDIOS",
+    "objeto": "Contratação de empresa especializada para execução da obra de engenharia destinada à reforma e implantação de cobertura na Quadra da Escola Municipal Coronel José Eloi Benedito, no Município de Senhora dos Remédios/MG, com recursos próprios do Município e recursos oriundos do Convênio nº 1261004271/2026/SEE, celebrado entre o Município de Senhora dos Remédios e a Secretaria de Estado de Educação de Minas Gerais  SEE/MG.",
+    "valor_estimado": "506289.18",
+    "data_encerramento": "2027-01-07",
+    "dias_restantes": "59",
+    "municipio": "Senhora dos Remédios",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18094870000132/2026/87"
   }
 ]
