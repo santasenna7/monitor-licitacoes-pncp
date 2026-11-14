@@ -25993,5 +25993,35 @@
     "municipio": "Barão de Cocais",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/23946262000149/2026/44"
+  },
+  {
+    "data_execucao": "2026-11-14 08:09",
+    "fonte": "empresa",
+    "empresa": "Drogaria Costa & Costa de Barbacena",
+    "numero_pncp": "18313825000121-1-000141/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE IGARATINGA",
+    "objeto": "AQUISIÇÃO DE MEDICAMENTO (INSULINA ASPART 100 UI/ML, EM CANETA PREENCHIDA DE 3 ML), DESTINADO AO ATENDIMENTO DE ORDEM JUDICIAL, PARA SUPRIR AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DO MUNICÍPIO DE IGARATINGA-MG",
+    "valor_estimado": "631.4",
+    "data_encerramento": "2026-11-19",
+    "dias_restantes": "5",
+    "municipio": "Igaratinga",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18313825000121/2026/141"
+  },
+  {
+    "data_execucao": "2026-11-14 08:09",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18414565000180-1-000067/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE PEDRA AZUL",
+    "objeto": "CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇOS DE SUPORTE E CONSULTORIA NA INSTRUMENTALIZAÇÃO DOS RECURSOS PROVENIENTES DA LEI COMPLEMENTAR Nº 14.3992022 - POLITICA NACIONAL ALDIR BLANC II – PNAB",
+    "valor_estimado": "7898.09",
+    "data_encerramento": "2026-11-23",
+    "dias_restantes": "9",
+    "municipio": "Pedra Azul",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18414565000180/2026/67"
   }
 ]
