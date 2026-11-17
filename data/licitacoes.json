@@ -26302,9 +26302,9 @@
     "modalidade": "Dispensa de Licitação",
     "orgao": "CAMARA MUNICIPAL DE BARBACENA",
     "objeto": "Contratação de empresa especializada no fornecimento de envelopes pardos e pastas a serem utilizados pela Secretaria Legislativa da Câmara Municipal de Barbacena.",
-    "valor_estimado": 6057.0,
+    "valor_estimado": "6057.0",
     "data_encerramento": "2026-11-23",
-    "dias_restantes": 6,
+    "dias_restantes": "6",
     "municipio": "Barbacena",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/20289385000166/2026/35"
