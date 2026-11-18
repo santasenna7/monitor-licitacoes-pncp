@@ -26548,5 +26548,50 @@
     "municipio": "Itanhandu",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18186718000180/2026/61"
+  },
+  {
+    "data_execucao": "2026-11-18 02:13",
+    "fonte": "empresa",
+    "empresa": "Carlos Batista da Silva",
+    "numero_pncp": "33224254000142-1-000042/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MGS MINAS GERAIS ADMINISTRACAO E SERVICOS SA",
+    "objeto": "AQUISIÇÃO DE EPI'S - AVENTAIS, BOTA E CAPACETE P MOTOSSERRA",
+    "valor_estimado": "",
+    "data_encerramento": "2026-12-02",
+    "dias_restantes": "14",
+    "municipio": "Belo Horizonte",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/33224254000142/2026/42"
+  },
+  {
+    "data_execucao": "2026-11-18 02:13",
+    "fonte": "empresa",
+    "empresa": "DDA - DEDETIZADORES ASSOCIADOS",
+    "numero_pncp": "18431312000620-1-000554/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE UBERLANDIA",
+    "objeto": "Prestação de serviços de controle de pragas urbanas, compreendendo a descupinização de áreas internas, em atendimento à Secretaria Municipal de Cultura e Turismo.",
+    "valor_estimado": "15840.3",
+    "data_encerramento": "2026-11-24",
+    "dias_restantes": "6",
+    "municipio": "Uberlândia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18431312000620/2026/554"
+  },
+  {
+    "data_execucao": "2026-11-18 02:13",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "01616271000139-1-000070/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE ORIZANIA",
+    "objeto": "Contratação de empresa especializada para a execução, sob regime de empreitada por preço global, de obra de engenharia para reforma e ampliação do Centro Municipal de Educação Infantil – Criança é Amor – Sebastião Henrique do Carmo, localizado na Avenida José Francisco Tavares, Centro, Orizânia/MG, incluindo o fornecimento de todos os materiais, equipamentos, ferramentas, mão de obra especializada e demais recursos necessários à execução integral do objeto, de acordo com o Termo de Referência/Projeto Básico, projetos, planilha orçamentária, memoriais descritivos, especificações técnicas, cronograma físico-financeiro e demais documentos técnicos que integram o processo de contratação",
+    "valor_estimado": "584839.14",
+    "data_encerramento": "2026-12-10",
+    "dias_restantes": "22",
+    "municipio": "Orizânia",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/01616271000139/2026/70"
   }
 ]
