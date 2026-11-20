@@ -27568,5 +27568,50 @@
     "municipio": "Divinópolis",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18291351000164/2026/318"
+  },
+  {
+    "data_execucao": "2026-11-20 04:29",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "01612493000183-1-000004/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE BONITO DE MINAS",
+    "objeto": "Contratação de empresa especializada no ramo de engenharia e construção\ncivil para execução da obra de modernização e ampliação do Campo de Futebol São\nJosé de Paula, no Município de Bonito de Minas/MG, com recursos provenientes da\nTransferência nº 023664/2026.",
+    "valor_estimado": "390450.0",
+    "data_encerramento": "2026-12-01",
+    "dias_restantes": "11",
+    "municipio": "Bonito de Minas",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/01612493000183/2026/4"
+  },
+  {
+    "data_execucao": "2026-11-20 04:29",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18133926000110-1-000066/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE SAO MIGUEL DO ANTA",
+    "objeto": "[Portal de Compras Públicas] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA CONSTRUÇÃO DE SALAS DE RECURSOS NA CMEI AUXILIADORA DE FATIMA FIALHO LIMA - 2ª ETAPA.",
+    "valor_estimado": "225658.23",
+    "data_encerramento": "2026-12-07",
+    "dias_restantes": "17",
+    "municipio": "São Miguel do Anta",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18133926000110/2026/66"
+  },
+  {
+    "data_execucao": "2026-11-20 04:29",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17730011000120-1-000117/2026",
+    "modalidade": "Dispensa de Licitação",
+    "orgao": "MUNICIPIO DE ARGIRITA",
+    "objeto": "Contratação de empresa especializada para prestação de serviços continuados de assessoria, consultoria e acompanhamento técnico à gestão municipal e às equipes do Sistema Único de Assistência Social – SUAS, visando ao fortalecimento da gestão e à melhoria dos serviços socioassistenciais, para atender às necessidades da Secretaria Municipal de Assistência Social de Argirita/MG.",
+    "valor_estimado": "21600.0",
+    "data_encerramento": "2026-11-25",
+    "dias_restantes": "5",
+    "municipio": "Argirita",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17730011000120/2026/117"
   }
 ]
