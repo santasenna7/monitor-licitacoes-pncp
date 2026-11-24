@@ -27778,5 +27778,50 @@
     "municipio": "Padre Paraíso",
     "uf": "MG",
     "link": "https://pncp.gov.br/app/editais/18404764000108/2026/78"
+  },
+  {
+    "data_execucao": "2026-11-24 01:18",
+    "fonte": "empresa",
+    "empresa": "DDA - DEDETIZADORES ASSOCIADOS",
+    "numero_pncp": "19229921000159-1-000111/2026",
+    "modalidade": "Pregão - Eletrônico",
+    "orgao": "MUNICIPIO DE CAPELINHA",
+    "objeto": "Contratação de empresa especializada para prestação de serviços de dedetização, desinsetização, desratização, descupinização e controle de pragas urbanas nos imóveis públicos do Município de Capelinha/MG, conforme condições, quantidades e exigências estabelecidas neste instrumento.",
+    "valor_estimado": "238814.45",
+    "data_encerramento": "2026-12-01",
+    "dias_restantes": "7",
+    "municipio": "Capelinha",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/19229921000159/2026/111"
+  },
+  {
+    "data_execucao": "2026-11-24 01:18",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "17695016000169-1-000044/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE CORINTO",
+    "objeto": "CONTRATAÇÃO DE PESSOA EMPRESÁRIA PARA EXECUÇÃO DE OBRA DE ENGENHARIA (CONSTRUÇÃO DE QUADRA POLIESPORTIVA COM ÁREA DE PROJEÇÃO DE COBERTURA DE 773,95 M², NA ESCOLA MUNICIPAL NAIR LIMA DE AGUIAR, NO MUNICÍPIO DE CORINTO – MG); PROCEDIMENTO LICITATÓRIO COM CRITÉRIO DE MENOR PREÇO (ART. 6, XXXVIII, ALÍNEA “A”, DA LEI FEDERAL Nº 14.133/2021), NO REGIME DE EMPREITADA POR PREÇO UNITÁRIO (ART. 6, XXVIII, DA LEI 14.133/2021). A PRESENTE CONTRATAÇÃO SERÁ CUSTEADA COM RECURSOS ORIUNDOS DE TRANSFERÊNCIAS ESPECIAIS DO ESTADO DE MINAS ATRAVÉS DO CONVENIO DE SAÍDA Nº:1261002828/2025/SEE E RESPECTIVO PLANO DE TRABALHO 002404/2025.",
+    "valor_estimado": "1065577.2",
+    "data_encerramento": "2026-12-09",
+    "dias_restantes": "15",
+    "municipio": "Corinto",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/17695016000169/2026/44"
+  },
+  {
+    "data_execucao": "2026-11-24 01:18",
+    "fonte": "empresa",
+    "empresa": "J.L. TREINAMENTOS E CONSULTORIA LTDA",
+    "numero_pncp": "18025957000158-1-000156/2026",
+    "modalidade": "Concorrência - Eletrônica",
+    "orgao": "MUNICIPIO DE MARIA DA FE",
+    "objeto": "CONTRATAÇÃO DE EMPRESA DE ENGENHARIA E CONSTRUÇÃO CIVIL  PARA EXECUÇÃO DE REFORMA DO CENTRO CULTURAL, EM ATENDIMENTO À SOLICITAÇÃO DA SECRETARIA MUNICIPAL DE CULTURA E TURISMO, TUDO EM CONFORMIDADE COM OS PROJETOS, PLANILHAS ORÇAMENTÁRIAS DA OBRA E MEMORIAL DESCRITIVO, QUE SERÁ CUSTEADA COM RECURSO DO PATRIMÔNIO CULTURAL E EM CONFORMIDADE COM O  DFD – DOCUMENTO DE FORMALIZAÇÃO DE DEMANDA, TERMO DE REFERÊNCIA E ESTUDO TÉCNICO PRELIMINAR DA OBRA.",
+    "valor_estimado": "162408.72",
+    "data_encerramento": "2026-12-16",
+    "dias_restantes": "22",
+    "municipio": "Maria da Fé",
+    "uf": "MG",
+    "link": "https://pncp.gov.br/app/editais/18025957000158/2026/156"
   }
 ]
